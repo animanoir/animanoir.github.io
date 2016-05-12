@@ -9,7 +9,7 @@
 title: Animanoir
 email: etherealflux94@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Fantasmas, espectros y seres etéreos.
+  Este es un blog que trata acerca de fantasmas, espectros y seres etéreos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: _geosmina
@@ -17,3 +17,4 @@ github_username:  animanoir
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
