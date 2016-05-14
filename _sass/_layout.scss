@@ -12,9 +12,14 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background-image: url("http://3.bp.blogspot.com/-t1yUaG59iqg/UxlqN-mIEhI/AAAAAAAABMM/albHlbnKvzI/s1600/tumblr_static_geosm.gif");
+    background-size: 150px;
+        
+
 }
 
 .site-title {
+    
     color: white !important;
     font-family: 'Montserrat', sans-serif;
     font-size: $title-size;
@@ -23,6 +28,7 @@
     letter-spacing: 15px;
     margin-bottom: 0;
     float: left;
+    
 
     &,
     &:visited {
