@@ -2,7 +2,7 @@
 layout: post
 title:  "Bienvenido al Infierno"
 date:   2016-05-13 20:01:00 -0500
-categories: jekyll update
+categories: texto
 ---
 
 Bienvenidos a {{site.title}} <-(eso es un *site.title*)
