@@ -4,12 +4,6 @@ title: Acerca
 permalink: /acerca/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Este es un simple blog donde compartiré mis proyectos de GitHub.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+El theme del sitio es el default pero fuertemente modificado, y el gif que sale de fondo en el header es de <a href="https://vimeo.com/72039237" target="_blank">Géminga (2003) de Hugo Verlinde</a>.
