@@ -33,7 +33,7 @@ En esa lista debemos encontrar la que diga *pdx.completion.trigger* y cambiar su
 
 ¡Y listo! Debería aparecer tu autocompletado en el editor de Processing mientras codeas.
 
-Cualquier duda, sugerencia o comentario, no duces comentar :~)
+Cualquier duda, sugerencia o comentario, no dudes comentar :~)
 
 <div id="disqus_thread"></div>
 <script>
