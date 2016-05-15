@@ -26,10 +26,10 @@ Lo primero que hay que hacer es abrir Processing. Luego, en *Archivo*, buscamos 
 <br>
 El link abrirá una ventana en el explorador de tu sistema operativo. A nosotros nos concierne el archivo *preferences.txt*.
 
-Cuando se abra, tendremos una lista de muchas preferencias que no aparecen en la ventana del programa, ya sea porque suelen ser poco frecuente su uso, o porque no se recomienda editarlas.
+Cuando se abra, tendremos una lista de muchas preferencias que no aparecen en la ventana del programa, ya sea porque suele ser poco frecuente su uso, o porque no se recomienda editarlas.
 <center><img src="https://66.media.tumblr.com/0ecdebe34e4ecda25aef3fa8e5ebfa54/tumblr_o779bskycs1rtghino1_400.png"></center>
 <br>
-En esa lista debemos encontrar la que diga *pdx.completion.trigger* y cambiar su atributo a **true**. Para aquellos que entiendan, acabamos de cambiar un valo *booleano*. Normalmente así se manejan muchas cosas en programación. Un *true* o un *false*. Un *me quieres* o *no me quieres*.
+En esa lista debemos encontrar la que diga *pdx.completion.trigger* y cambiar su atributo a **true**. Para aquellos que entiendan, acabamos de cambiar un valor *booleano*. Normalmente así se manejan muchas cosas en programación. Un *true* o un *false*. Un *me quieres* o *no me quieres*.
 
 ¡Y listo! Debería aparecer tu autocompletado en el editor de Processing mientras codeas.
 
