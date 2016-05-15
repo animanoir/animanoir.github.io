@@ -19,7 +19,7 @@ Es tan sencillo como programar en Processing. Awebo que sí.
 
 Lo primero que hay que hacer es abrir Processing. Luego, en *Archivo*, buscamos *Preferencias* (yo lo tengo en inglés, por lo que diría *Preferences*). Le damos click y volvemos a hacer click en el enlace de hasta abajo (donde dice *more preferences can be edited* bla, bla...).
 <br>
-<center>**Edítalo sólo cuando tengas Processing cerrado** No sé, pero así te advierten :~O</center>
+<center>Edítalo sólo cuando tengas P5 cerrado.</center>
 <br>
 <center><img src="https://65.media.tumblr.com/dff817aa1262622fed8d39bc56dcac97/tumblr_o7790dQu6z1rtghino1_500.png
 "></center>
