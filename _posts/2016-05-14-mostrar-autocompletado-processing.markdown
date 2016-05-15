@@ -17,7 +17,7 @@ En este post me gustaría compartir la manera en la que uno puede activar el **a
 
 Es tan sencillo como programar en Processing. Awebo que sí.
 
-Lo primero que hay que hacer es abrir Processing. Luego, en archivo, buscamos *Preferencias* (yo lo tengo en inglés, por lo que diría *Preferences*. Le damos click y hacemos click en el enlace de hasta abajo. Es más, donde dice *more preferences can be edited* bla, bla...
+Lo primero que hay que hacer es abrir Processing. Luego, en *Archivo*, buscamos *Preferencias* (yo lo tengo en inglés, por lo que diría *Preferences*). Le damos click y volvemos a hacer click en el enlace de hasta abajo (donde dice *more preferences can be edited* bla, bla...).
 <br>
 <center>**Edítalo sólo cuando tengas Processing cerrado** No sé, pero así te advierten :~O</center>
 <br>
