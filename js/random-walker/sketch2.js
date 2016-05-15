@@ -5,8 +5,8 @@
 
 //Crea un arreglo.
 var walkers = new Array(250);
-var ancho = 640;
-var altura = 400;
+var ancho = 740;
+var altura = 500;
 
 function setup() {
   //Escenario
