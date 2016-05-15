@@ -6,7 +6,7 @@ date:   2016-05-15 17:35:00 -0500
 categories: programacion p5js
 ---
 
-Este es un simple sketch que usa algunos fundamentos básicos de movimiento con vectores.
+Este es un simple sketch que usa algunos fundamentos básicos de movimiento con vectores, usando p5.js, que es Processing pero en JavaScript.
 
 
 <!-- Carga de archivo js -->
