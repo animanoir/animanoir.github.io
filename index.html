@@ -1,23 +1,40 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="es">
 
-<div class="home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!--Libreria Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>Animanoir</title>
+</head>
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
+<body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+      </div>
+    </nav>
+    <!--Fin del navbar-->
 
-</div>
+    <!--Contenido-->
+    <div class="row">
+      <div class="col-sm-12" id="columna1">
+        <h1 id="titulo">Animanoir</h1>
+        <p class="parrafo" id="titulo-subtitulo">Estudio de animación y arte digital.</p>
+      </div>
+    </div>
+    <br>
+
+  </div>
+
+</body>
+
+</html>
