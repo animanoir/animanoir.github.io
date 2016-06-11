@@ -21,14 +21,21 @@ body{
 	margin-top: -15px; 
 }
 
-.row{
+/*.row{
 	border: solid;
 	border-color: white;
-}
+}*/
 
 .f1{
 	padding-top: 50px;
 	padding-bottom: 160px;
+	padding-left: 10px;
+}
+
+.cajas{
+	width: 388px;
+	height: 230px;
+	text-align: justify;
 }
 
 /*ids*/
@@ -40,17 +47,19 @@ body{
 	position: relative;
 }
 
+
 #cuadro1{
-	background-color: blue;
+	background-color: #520000;
 }
 
 #cuadro2{
-	background-color: red;
+	background-color: #09521C;
 }
 
 #cuadro3{
-	background-color: green;
+	background-color: #000452;
 }
+
 
 #animacion{
 	float: left;
