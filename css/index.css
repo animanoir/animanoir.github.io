@@ -12,12 +12,25 @@ body{
 /*classes*/
 .navbar{
 	background-color: #141414;
+	font-family: 'Open Sans', sans-serif;	
 }
 
 .parrafo{
 	font-family: 'Open Sans', sans-serif;
-	color: white
+	color: white;
+	margin-top: -15px; 
 }
+
+.row{
+	border: solid;
+	border-color: white;
+}
+
+.f1{
+	padding-top: 50px;
+	padding-bottom: 160px;
+}
+
 /*ids*/
 #titulo{
     color: white;
@@ -25,4 +38,20 @@ body{
     font-size: 8em;
     letter-spacing: 5px;
 	position: relative;
+}
+
+#cuadro1{
+	background-color: blue;
+}
+
+#cuadro2{
+	background-color: red;
+}
+
+#cuadro3{
+	background-color: green;
+}
+
+#animacion{
+	float: left;
 }
