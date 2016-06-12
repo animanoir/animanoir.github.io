@@ -28,13 +28,13 @@ body{
 
 .f1{
 	padding-top: 50px;
-	padding-bottom: 160px;
-	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-left: 11px;
 }
 
 .cajas{
-	width: 388px;
-	height: 230px;
+	width: 370px;
+	height: 180px;
 	text-align: justify;
 }
 
@@ -49,18 +49,20 @@ body{
 
 
 #cuadro1{
-	background-color: #520000;
+	background: linear-gradient(#520000, black);
 }
 
 #cuadro2{
-	background-color: #09521C;
+	background: linear-gradient(#09521C, black);
 }
 
 #cuadro3{
-	background-color: #000452;
+	background: linear-gradient(#000452, black);
 }
 
-
-#animacion{
-	float: left;
+#titulo-imagen{
+	z-index: -1;
+	margin-top: -214px;
+	position: relative;
+	float: right;
 }
