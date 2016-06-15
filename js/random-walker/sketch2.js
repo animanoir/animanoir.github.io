@@ -11,7 +11,7 @@ var altura = 500;
 function setup() {
   //Escenario
   var cvs = createCanvas(ancho, altura);
-  cvs.parent("contenedor2")
+  cvs.parent("contenedor2");
   background(0);
   smooth(); //I think it smooths it.
 
