@@ -7,7 +7,7 @@ categories: programacion p5js
 ---
 
 Sketch que usa un algoritmo creado por [Craig Reynolds](http://www.red3d.com/cwr/), específicamente uno de *Steering*.
-Básicamente lo que sucede es que los círculos son seguidos por los triángulos, pero éstos aparecen de manera aleatoria den el canvas.
+Básicamente lo que sucede es que los círculos son seguidos por los triángulos, pero éstos aparecen de manera aleatoria dentro el canvas.
 
 Usando la formula `steering = desire - velocity` (la cual incluye manejo básico de vectores) es posible darle ese sentido de "deseo" por los objetos triangulares por los círculos y, por lo tanto, seguirlos.
 
