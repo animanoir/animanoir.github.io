@@ -11,7 +11,7 @@ Básicamente lo que sucede es que los círculos son seguidos por los triángulos
 
 Usando la formula `steering = desire - velocity` (la cual incluye manejo básico de vectores) es posible darle ese sentido de "deseo" por los objetos triangulares por los círculos y, por lo tanto, seguirlos.
 
-Luego subo el código que ya me dio flojera limpiarlo.
+Esta estrategia es útil para varias cosas, en las que se me ocurren juegos, perseguir un objeto, o animaciones interactivas, etc.
 
 Mantén pulsado el botón del mouse.
 
