@@ -8,7 +8,8 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>Escrito por Óscar A. Montiel</li>
-          <li><p style="color:white;">{{ site.email }}</p>
+          <li>
+            <p style="color:white;">{{ site.email }}</p>
         </ul>
       </div>
 
@@ -18,9 +19,7 @@
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
+          {% endif %} {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
@@ -30,6 +29,8 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
+        <div class="fb-like" data-href="https://www.facebook.com/Animanoir-534313183271917" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+
       </div>
     </div>
 
