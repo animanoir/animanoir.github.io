@@ -1,23 +1,83 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="es">
 
-<div class="home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!--Libreria Bootstrap-->
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <!-- p5.js-->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.1/p5.js"></script>
+  <script src="js/led/sketch.js" type="text/javascript"></script>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
-</div>
+  <!--Mi CSS-->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>Animanoir</title>
+</head>
+
+<body>
+  <!--Botón Like de FB-->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <!--<div class="navbar-header">
+        <a href="#" class="navbar-brand">Animanoir</a>
+      </div>-->
+      <ul class="nav navbar-nav">
+        <li><a href="blog.html" target="_blank">Blog</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <!--Fin del navbar-->
+
+  <!--Contenido-->
+
+  <!--Título-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div  id="tituloResponsivo">
+          <h1 id="titulo">Animanoir</h1>
+        </div>
+        <p class="parrafo" id="titulo-subtitulo">Estudio de animación y arte digital.</p>
+      </div>
+      <div class="col-md-4" id="p5">
+        <!--Led-->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div clas="row">
+      <div class="col-md-12">
+        <p class="parrafo">Próximamente</p>
+        <div class="fb-like" data-href="https://www.facebook.com/Animanoir-534313183271917/?fref=ts" data-layout="standard" data-action="like"
+          data-show-faces="true" data-share="true"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--JS Bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

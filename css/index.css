@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo); /*Título*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+
+/*body{
+	padding-top: 40px; /*Para que el navbar no overleyeé a lo demás
+}
+*/
+
+
+/* Texto responsivo */
+@media screen and (max-width: 992px) {
+#tituloResponsivo{
+    font-size: 68%;
+  }
+
+}
+
+body{
+    background-color: black;
+}
+
+/*classes*/
+.navbar{
+	background-color: #141414;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.parrafo{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin-top: -15px; 
+}
+
+/*.row{
+	border: solid;
+	border-color: white;
+}*/
+
+.f1{
+	padding-top: 50px;
+	padding-bottom: 5px;
+	padding-left: 11px;
+}
+
+.cajas{
+	width: 100%;
+	height: 180px;
+	text-align: justify;
+	font-size: 1	em;
+}
+
+/*ids*/
+#titulo{
+    color: white;
+    font-family: 'Cardo', serif;
+	font-size: 8em;
+    letter-spacing: 5px;
+	position: relative;
+}
+
+
+#cuadro1{
+	background: linear-gradient(#520000, black);
+}
+
+#cuadro2{
+	background: linear-gradient(#09521C, black);
+}
+
+#cuadro3{
+	background: linear-gradient(#000452, black);
+}
+
+#titulo-imagen{
+	z-index: -1;
+	position: relative;
+	float: right;
+}
+
+#p5{
+	padding-right: -10px;
+}
