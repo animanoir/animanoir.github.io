@@ -5,6 +5,16 @@
 	padding-top: 40px; /*Para que el navbar no overleyeé a lo demás
 }
 */
+
+
+/* Texto responsivo */
+@media screen and (max-width: 992px) {
+#tituloResponsivo{
+    font-size: 68%;
+  }
+
+}
+
 body{
     background-color: black;
 }
@@ -66,4 +76,8 @@ body{
 	z-index: -1;
 	position: relative;
 	float: right;
+}
+
+#p5{
+	padding-right: -10px;
 }
