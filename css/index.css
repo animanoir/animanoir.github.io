@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Cardo); /*Título*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); /*Demás*/
 
 /*body{
 	padding-top: 40px; /*Para que el navbar no overleyeé a lo demás
@@ -80,4 +80,13 @@ body{
 
 #p5{
 	padding-right: -10px;
+}
+
+#info{
+	width: 500px;
+	text-align: justify;
+	color: lightgray;
+	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+	
 }
