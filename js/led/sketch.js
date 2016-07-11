@@ -32,5 +32,4 @@ function draw() {
 
   //Máscara
   image(led, 0, 0);
-
 }
