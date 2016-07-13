@@ -27,7 +27,6 @@ Este es un simple sketch que usa algunos fundamentos básicos de movimiento con 
 </center>
 
 <!-- Comentarios -->
-{% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
     /**

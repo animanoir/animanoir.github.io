@@ -37,7 +37,6 @@ INSTRUCCIONES: Mantén pulsado el botón del mouse.
 </center>
 
 <!-- Comentarios -->
-{% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
     /**
