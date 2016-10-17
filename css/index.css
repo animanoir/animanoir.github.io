@@ -1,12 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cardo); /*Título*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans); /*Demás*/
 
-/*body{
-	padding-top: 40px; /*Para que el navbar no overleyeé a lo demás
-}
-*/
-
-
 /* Texto responsivo */
 @media screen and (max-width: 992px) {
 #tituloResponsivo{
@@ -17,6 +11,7 @@
 
 body{
     background-color: black;
+	padding-top: 40px;
 }
 
 /*classes*/
