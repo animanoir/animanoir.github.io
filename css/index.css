@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cardo); /*Título*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans); /*Demás*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200'); /*Demás*/
 
 /* Texto responsivo */
 @media screen and (max-width: 992px) {
@@ -14,17 +13,21 @@ body{
 	padding-top: 40px;
 }
 
+footer{
+	font-size: 0.8em;
+}
+
 /*classes*/
 .navbar{
 	background-color: #141414;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 .parrafo{
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	margin-top: -15px; 
+font-family: 'Source Sans Pro', sans-serif;
+	color: whitesmoke;
+	margin-top: -15px;
 }
 
 /*.row{
@@ -46,12 +49,11 @@ body{
 }
 
 /*ids*/
-#titulo{
-    color: white;
-    font-family: 'Cardo', serif;
-	font-size: 8em;
-    letter-spacing: 5px;
-	position: relative;
+
+
+#logo{
+	pointer-events: none;
+	padding-top: 20px;
 }
 
 
@@ -82,5 +84,5 @@ body{
 	text-align: justify;
 	color: lightgray;
 	font-size: 0.9em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Droid Serif', serif;
 }

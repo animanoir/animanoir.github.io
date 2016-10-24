@@ -28,7 +28,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -47,19 +47,8 @@
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="dweb.html">Desarrollo web</a></li>
+					<li><a href="#">Animación</a></li>
 					<li><a target="_blank" href="http://safetyinsolitude.blogspot.mx/">Blog</a></li>
-					<!--<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artistas <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>-->
 				</ul>
 			</div>
 			<!--nav-collapse -->
@@ -73,36 +62,61 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8">
-					<div id="tituloResponsivo">
-						<h1 id="titulo">Animanoir</h1>
-					</div>
-					<p class="parrafo" id="titulo-subtitulo">Estudio de animación y arte digital.</p>
-					<br>
-					<div id="info">
-
-					</div>
-				</div>
-
-				<div class="col-sm-4" id="p5">
-					<!--Led-->
+				<div id="logo" class="col-sm-12">
+					<!--Logo al azar-->
 				</div>
 			</div>
 		</div>
 	</header>
-
 	<br>
-
+	<!--led-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<div id="p5">
+						<!--Led-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<section>
+		<div class="container">
+			<div class="row text-center parrafo">
+				<div class="col-sm-12">
+					<h4><b>Animanoir</b> es un estudio de <i>animación y arte digital</i>.</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<!--fb like-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="fb-like" data-href="https://www.facebook.com/animanoiranimacion/?fref=ts" data-layout="standard" data-action="like"
+						data-show-faces="false" data-share="true"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<!--footer-->
 	<footer>
 		<div class="container">
-			<div clas="row">
-				<div class="col-sm-6">
-					<div class="fb-like" data-href="https://www.facebook.com/animanoiranimacion/" data-layout="standard" data-action="like" data-show-faces="true"
-						data-share="true"></div>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<a target="_blank" href="https://www.facebook.com/animanoiranimacion/?fref=ts"><img src="media/icono-fb.png" alt="Facebook"></a>
+					<br>
+					<p id="copyrights">Animanoir 2016 &copy;. Todos los derechos reservados.</p>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<!--fin de footer-->
 
 	<!--Bootstrap jQuery-->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -110,6 +124,8 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
+
+	<script src="jQuerys.js"></script>
 
 </body>
 
