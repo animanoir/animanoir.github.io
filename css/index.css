@@ -20,9 +20,16 @@ footer{
 /*classes*/
 .navbar{
 	background-color: #141414;
-font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar-nav > li > .dropdown-menu {
+	background: #141414;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            color: black !important;
+ }
 
 .parrafo{
 font-family: 'Source Sans Pro', sans-serif;
@@ -53,19 +60,6 @@ font-family: 'Source Sans Pro', sans-serif;
 #logo{
 	pointer-events: none;
 	padding-top: 20px;
-}
-
-
-#cuadro1{
-	background: linear-gradient(#520000, black);
-}
-
-#cuadro2{
-	background: linear-gradient(#09521C, black);
-}
-
-#cuadro3{
-	background: linear-gradient(#000452, black);
 }
 
 #titulo-imagen{
