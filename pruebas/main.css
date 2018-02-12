@@ -1,0 +1,22 @@
+#sticky-sidebar {
+    position: fixed;
+    max-width: 20%;
+}
+
+.caja{
+}
+
+#c1{
+    background-color: green;
+}
+
+#c2{
+    background-color: red;
+}
+
+#c3{
+    background-color: blue;
+}
+
+
+
