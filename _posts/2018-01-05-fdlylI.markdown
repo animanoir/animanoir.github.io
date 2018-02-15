@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Facultad de Lenguas y Letras"
+date:   2018-01-18 24:00:00 -0600
+category: animacion
+permalink: facultad-de-lenguas-y-letras-i
+thumbnail: https://dl.dropbox.com/s/4ou7ndl36vxdaa0/facultad.gif?raw=1
+---
+
+<h2 class="fuente-fjalla-titulo">Geosmina - Facultad de Lenguas y Letras I</h2>
+
+<div class="video-container">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/be73Nr5HIss?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+Música y edición: Óscar A. Montiel

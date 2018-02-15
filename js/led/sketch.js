@@ -3,12 +3,12 @@ var galaxia;
 var x = -200;
 
 //Array de imágenes de galaxias
-var galaxias = ["../js/led/orion.jpg", "../js/led/horse.jpg", "../js/led/swan.jpg", "../js/led/eagle.jpg"];
+var galaxias = ["../js/led/orion.jpg", "../js/led/horse.jpg", "../js/led/swan.jpg", "../js/led/eagle.jpg", "../js/led/n3.jpg"];
 var galaxiaElegida;
 
 function preload() {
   //Selecciona un index de galaxias al azar
-  galaxiaElegida = (int(random(4)));
+  galaxiaElegida = (int(random(galaxias.length)));
   galaxia = loadImage(galaxias[galaxiaElegida]);
   led = loadImage("../js/led/led-transparente.png");
 }
@@ -24,7 +24,7 @@ function draw() {
   x += 0.05;
   push();
   if (x >= -100) {
-    galaxiaElegida = (int(random(4)));
+    galaxiaElegida = (int(random(galaxias.length)));
     galaxia = loadImage(galaxias[galaxiaElegida]);
     x = -200;
   }
@@ -33,4 +33,8 @@ function draw() {
 
   //Máscara
   image(led, 0, 0);
+}
+
+function mouseReleased(){
+  console.log("hola");
 }
