@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-17T19:54:40-06:00</updated><id>/</id><title type="html">Animanoir | Animación y arte digital</title><subtitle>Animación y arte digital. Fantasmas, espectros y seres etéreos.</subtitle><entry><title type="html">Secretos</title><link href="/secretos-como-moneda" rel="alternate" type="text/html" title="Secretos" /><published>2018-01-19T00:00:00-06:00</published><updated>2018-01-19T00:00:00-06:00</updated><id>/secretosI</id><content type="html" xml:base="/secretos-como-moneda">&lt;h2 class=&quot;fuente-fjalla-titulo&quot;&gt;Si los secretos fueran moneda&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-23T11:46:51-06:00</updated><id>http://localhost:4000/</id><title type="html">Animanoir | Animación y arte digital</title><subtitle>Animación y arte digital. Fantasmas, espectros y seres etéreos.</subtitle><entry><title type="html">Revista Ouroboros</title><link href="http://localhost:4000/revista-ouroboros-homo-techno-sapiens" rel="alternate" type="text/html" title="Revista Ouroboros" /><published>2018-02-22T00:00:00-06:00</published><updated>2018-02-22T00:00:00-06:00</updated><id>http://localhost:4000/revistaOuroboros</id><content type="html" xml:base="http://localhost:4000/revista-ouroboros-homo-techno-sapiens">&lt;style&gt;
+#main-content{
+    text-align: justify;
+}
+&lt;/style&gt;
+
+&lt;h2 class=&quot;fuente-fjalla-titulo&quot;&gt;Homo techno sapiens&lt;/h2&gt;
+
+&lt;p&gt;A principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;https://dl.dropbox.com/s/jsvyu0at0zjjasy/CAM01086.jpg?raw=1&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado &lt;em&gt;Homo Techno Sapiens&lt;/em&gt; (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.&lt;/p&gt;
+
+&lt;p&gt;La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;https://dl.dropbox.com/s/3kfkiwi9oqptlj9/cam01075.jpg?raw=1&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;https://dl.dropbox.com/s/3ewtar28ad3iha3/CAM01089.jpg?raw=1&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;La revista la pueden encontrar en la &lt;a href=&quot;http://libreria.uaq.mx/&quot; target=&quot;_blank&quot;&gt;Librería UAQ&lt;/a&gt; y en la estantería de libros en Bellas Artes de la UAQ :^)&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html"></summary></entry><entry><title type="html">Secretos</title><link href="http://localhost:4000/secretos-como-moneda" rel="alternate" type="text/html" title="Secretos" /><published>2018-01-19T00:00:00-06:00</published><updated>2018-01-19T00:00:00-06:00</updated><id>http://localhost:4000/secretosI</id><content type="html" xml:base="http://localhost:4000/secretos-como-moneda">&lt;h2 class=&quot;fuente-fjalla-titulo&quot;&gt;Si los secretos fueran moneda&lt;/h2&gt;
 
 &lt;p&gt;Si nuestros secretos fueran moneda, ya seríamos ricos.&lt;/p&gt;
 
@@ -15,7 +43,7 @@
 
 &lt;p&gt;De hecho lo hacemos. A nuestros confidentes. Y los cambiamos por algo aún más valioso.&lt;/p&gt;
 
-&lt;p&gt;¿Cuántos secretos intercambiarías por (lo que más quieres en el mundo)?&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Si los secretos fueran moneda</summary></entry><entry><title type="html">Facultad de Lenguas y Letras</title><link href="/facultad-de-lenguas-y-letras-i" rel="alternate" type="text/html" title="Facultad de Lenguas y Letras" /><published>2018-01-19T00:00:00-06:00</published><updated>2018-01-19T00:00:00-06:00</updated><id>/fdlylI</id><content type="html" xml:base="/facultad-de-lenguas-y-letras-i">&lt;h2 class=&quot;fuente-fjalla-titulo&quot;&gt;Geosmina - Facultad de Lenguas y Letras I&lt;/h2&gt;
+&lt;p&gt;¿Cuántos secretos intercambiarías por (lo que más quieres en el mundo)?&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Si los secretos fueran moneda</summary></entry><entry><title type="html">Facultad de Lenguas y Letras</title><link href="http://localhost:4000/facultad-de-lenguas-y-letras-i" rel="alternate" type="text/html" title="Facultad de Lenguas y Letras" /><published>2018-01-19T00:00:00-06:00</published><updated>2018-01-19T00:00:00-06:00</updated><id>http://localhost:4000/fdlylI</id><content type="html" xml:base="http://localhost:4000/facultad-de-lenguas-y-letras-i">&lt;h2 class=&quot;fuente-fjalla-titulo&quot;&gt;Geosmina - Facultad de Lenguas y Letras I&lt;/h2&gt;
 
 &lt;div class=&quot;video-container&quot;&gt;
 
