@@ -87,8 +87,9 @@ a:hover {
 }
 
 .card-title {
-    font-size: 1.2em;
-    font-family: 'Fjalla One', sans-serif !important;
+    font-size: 1.04em;
+    // font-family: 'Fjalla One', sans-serif !important;
+    font-family: 'Karla', sans-serif;
 }
 
 .index-info {
