@@ -20,4 +20,5 @@ body{
 
 #contenedor{
     padding-top: 10px;
+    user-select: none !important;    
 }
