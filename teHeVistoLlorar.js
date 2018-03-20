@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
     var sentidos = ['visto', 'escuchado', 'sentido', 'cachado'];
-    var verbos = ['llorar', 'matar', 'reír', 'rezar', 'rogar', 'romper', 'explotar', 'bailar', 'olvidar', 'engañar', 'amar', 'cojer', 'gozar', 'robar', 'desconfiar'];
+    var verbos = ['llorar', 'matar', 'reír', 'rezar', 'rogar', 'romper', 'explotar', 'bailar', 'olvidar', 'engañar', 'amar', 'cojer', 'gozar', 'robar', 'desconfiar', 'odiar'];
 
     var coloresVerbo = ['red', 'darkred', 'indianred', 'maroon'];
     var note = ['no', 'no te'];
