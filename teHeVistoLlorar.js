@@ -56,7 +56,7 @@ $(document).ready(function(){
             $(this).text(verbos[nuevoVerbo]);
             $(this).css('color', coloresVerbo[nuevoColor]);
         }else{
-            $(this).text('he olvidado').css('font-size', '1em');
+            $(this).text('he olvidado');
 
 
         }
