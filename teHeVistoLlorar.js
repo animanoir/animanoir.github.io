@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
     var sentidos = ['visto', 'escuchado', 'sentido', 'cachado'];
-    var verbos = ['llorar', 'matar', 'reír', 'rezar', 'rogar', 'romper', 'explotar', 'bailar', 'olvidar', 'engañar', 'amar', 'cojer', 'gozar', 'robar', 'desconfiar', 'odiar'];
+    var verbos = ['llorar', 'matar', 'reír', 'rezar', 'rogar', 'romper', 'explotar', 'bailar', 'olvidar', 'engañar', 'amar', 'cojer', 'gozar', 'robar', 'desconfiar'];
 
     var coloresVerbo = ['red', 'darkred', 'indianred', 'maroon'];
     var note = ['no', 'no te'];
@@ -56,7 +56,7 @@ $(document).ready(function(){
             $(this).text(verbos[nuevoVerbo]);
             $(this).css('color', coloresVerbo[nuevoColor]);
         }else{
-            $(this).text('he olvidado');
+            $(this).text('he olvidado').css('font-size', '1em');
 
 
         }
