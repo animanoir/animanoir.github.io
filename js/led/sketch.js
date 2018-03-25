@@ -3,7 +3,7 @@ var galaxia;
 var x = -200;
 
 //Array de imágenes de galaxias
-var galaxias = ["../js/led/orion.jpg", "../js/led/horse.jpg", "../js/led/swan.jpg", "../js/led/eagle.jpg", "../js/led/n3.jpg"];
+var galaxias = ["../js/led/orion.jpg", "../js/led/horse.jpg", "../js/led/swan.jpg", "../js/led/bubble.jpg", "../js/led/n3.jpg", "../js/led/westerlund.jpg", "../js/led/supernova.jpg"];
 var galaxiaElegida;
 
 function preload() {
