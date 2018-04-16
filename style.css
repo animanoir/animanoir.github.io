@@ -1,6 +1,6 @@
 /*Fuentes*/
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Average|Fjalla+One|Karla');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Fjalla+One|Karla');
 
 /* Imagen de 'animanoir' responsivo */
 
@@ -53,7 +53,6 @@ a:hover {
     color: #EBCACA;
 }
 
-
 /*classes*/
 
 .centrar{
@@ -88,7 +87,6 @@ a:hover {
 
 .card-title {
     font-size: 1.04em;
-    // font-family: 'Fjalla One', sans-serif !important;
     font-family: 'Karla', sans-serif;
 }
 
@@ -143,9 +141,6 @@ a:hover {
     height: 100%;
 }
 
-
-
-
 /*ids*/
 
 #navbar-superior{
@@ -199,12 +194,8 @@ a:hover {
 
 #main-content {
     color: white;
-    // font-family: 'Average', serif;
-    // font-family: 'Roboto', sans-serif;
-    // font-family: 'PT Sans', sans-serif;
-    // font-family: 'Muli', sans-serif;
     font-family: 'Karla', sans-serif;
-    font-size: 0.94em;
+    font-size: 0.91em;
 }
 
 #home-logo {
