@@ -34,7 +34,3 @@ function draw() {
   //Máscara
   image(led, 0, 0);
 }
-
-function mouseReleased(){
-  console.log("hola");
-}

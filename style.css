@@ -198,6 +198,11 @@ a:hover {
     font-size: 0.91em;
 }
 
+#texto-acerca{
+    // font-size: 1em !important;
+    text-indent: 50px;
+}
+
 #home-logo {
     padding-bottom: 10px;
 }
