@@ -85,10 +85,10 @@
 </header>
 
     <!-- El sidebar y el contenido  -->
-    <div class="container">
+    <div class="container-fluid">
   <div class="row">
     <!-- Menú lateral -->
-    <nav class="col-sm-3 ">
+    <nav class="col-sm-2">
     <div class="col-sm-12" id="fixed-sidebar">
       <!-- <a href="index.html"><img id="home-logo" src="../media/logo-prueba.jpg" alt="Logo de Animanoir"></a>  -->
       <ul>
@@ -112,9 +112,9 @@
       </ul>
     </div>
   </nav>
-    <div class="col-sm-9" id="main-content">
+    <div class="col-sm-10" id="main-content-post">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-10">
           <h2></h2>
           <style>
 #main-content{
@@ -127,7 +127,7 @@
 <p>A principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.</p>
 
 <div class="text-center">
-<img class="img-fluid" src="https://dl.dropbox.com/s/jsvyu0at0zjjasy/CAM01086.jpg?raw=1" />
+<img class="img-fluid rounded" src="https://dl.dropbox.com/s/jsvyu0at0zjjasy/CAM01086.jpg?raw=1" />
 </div>
 
 <p>Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado <em>Homo Techno Sapiens</em> (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.</p>
@@ -135,34 +135,38 @@
 <p>La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.</p>
 
 <div class="text-center">
-<img class="img-fluid" src="https://dl.dropbox.com/s/3kfkiwi9oqptlj9/cam01075.jpg?raw=1" />
+<img class="img-fluid rounded" src="https://dl.dropbox.com/s/3kfkiwi9oqptlj9/cam01075.jpg?raw=1" />
 </div>
 
 <p>A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.</p>
 
 <div class="text-center">
-<img class="img-fluid" src="https://dl.dropbox.com/s/3ewtar28ad3iha3/CAM01089.jpg?raw=1" />
+<img class="img-fluid rounded" src="https://dl.dropbox.com/s/3ewtar28ad3iha3/CAM01089.jpg?raw=1" />
 </div>
 
 <p>La revista la pueden encontrar en la <a href="http://libreria.uaq.mx/" target="_blank">Librería UAQ</a> y en la estantería de libros en Bellas Artes de la UAQ :^)</p>
 
-          <!-- <div id="disqus_thread"></div>
+          <br> 
+          
+            <div id="disqus_thread"></div>
 <script>
+    var disqus_config = function () {
+        this.page.url = "https://animanoir.com";
+        this.page.identifier = "/revista-ouroboros-homo-techno-sapiens";
+    };
 
-var disqus_config = function () {
-this.page.url = "http://animanoir.com";  
-this.page.identifier = "/revista-ouroboros-homo-techno-sapiens"; 
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://animanoir.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document,
+            s = d.createElement('script');
+        s.src = 'https://animanoir.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
-
+<noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript> 
+          
         </div>
       </div>
     </div>
@@ -190,14 +194,14 @@ s.setAttribute('data-timestamp', +new Date());
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> <script async src="js/hogarjq.js"></script>
 
     <!--Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96988751-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96988751-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-96988751-1');
-</script> -->
+</script>
 
 
 </body>

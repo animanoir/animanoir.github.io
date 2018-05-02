@@ -18,16 +18,55 @@
         display: block !important;
     }
 
-    .centrar{
-        text-align: center !important;
+    .text-center-contacto{
+        // padding-right: 100px !important;
+        right: 0px !important;
+        text-align: center;
     }
 
     .img-blog{
         width: 100% !important;
     }
+
+    #main-content-post{
+        color: white;
+        font-family: 'Karla', sans-serif;
+        font-size: 0.91em;
+        padding: 10px !important;
+    }
+    
+    .img-blog{
+        display: none;
+    }
 }
 
 /*Tags HTML*/
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+// ::-webkit-scrollbar-track {
+//     // box-shadow: inset 0 0 5px grey; 
+//     // border-radius: 10px;
+// }
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #222222; 
+}
+
+
 
 hr {
     border-color: white;
@@ -59,8 +98,11 @@ a:hover {
 
 /*classes*/
 
-.centrar{
-    text-align: left;
+
+.text-center-contacto{
+    // padding-right: 100px !important;
+    right: 110px;
+    text-align: center;
 }
 
 .contacto-imagenes {
@@ -166,8 +208,9 @@ a:hover {
 #fixed-sidebar {
     padding-top: 18px;
     position: fixed;
-    max-width: 20%;
+    max-width: 10%;
     color: white;
+    z-index: 1 !important;
 }
 
 #link-hogar {
@@ -205,6 +248,15 @@ a:hover {
     font-family: 'Karla', sans-serif;
     font-size: 0.91em;
 }
+
+#main-content-post{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.91em;
+    padding-left: 70px;
+}
+
+
 
 // #texto-acerca{
 //     // font-size: 1em !important;
