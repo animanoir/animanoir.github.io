@@ -21,6 +21,10 @@
     .centrar{
         text-align: center !important;
     }
+
+    .img-blog{
+        width: 100% !important;
+    }
 }
 
 /*Tags HTML*/
@@ -141,6 +145,10 @@ a:hover {
     height: 100%;
 }
 
+.img-blog{
+    width: 60%;
+}
+
 /*ids*/
 
 #navbar-superior{
@@ -216,8 +224,8 @@ a:hover {
     /* background-color: red; */
 }
 
-#copyright > a{
-    color: gray !important; 
+#copyright{
+    color: #494949 !important; 
 }
 
 #copyright > a:hover{
