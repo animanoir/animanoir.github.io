@@ -99,6 +99,11 @@ a:hover {
 /*classes*/
 
 
+.row{
+    margin-right: -12px !important;
+}
+
+
 .text-center-contacto{
     // padding-right: 100px !important;
     right: 110px;
