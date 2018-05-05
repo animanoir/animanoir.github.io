@@ -1,7 +1,6 @@
 /*Fuentes*/
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Fjalla+One|Karla');
-
 /* Imagen de 'animanoir' responsivo */
 
 @media screen and (max-width: 992px) {
@@ -14,59 +13,54 @@
     #fixed-sidebar {
         display: none;
     }
-    #navbar-superior{
+    #navbar-superior {
         display: block !important;
     }
-
-    .text-center-contacto{
+    .text-center-contacto {
         // padding-right: 100px !important;
         right: 0px !important;
         text-align: center;
     }
-
-    .img-blog{
+    .img-blog {
         width: 100% !important;
     }
-
-    #main-content-post{
+    #main-content-post {
         color: white;
         font-family: 'Karla', sans-serif;
         font-size: 0.91em;
         padding: 10px !important;
     }
-    
-    .img-blog{
+    .img-blog {
         display: none;
     }
 }
 
 /*Tags HTML*/
 
-
-
 /* width */
+
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 9px;
 }
 
 /* Track */
+
 // ::-webkit-scrollbar-track {
 //     // box-shadow: inset 0 0 5px grey; 
 //     // border-radius: 10px;
 // }
- 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
-    background: #2e2e2e; 
+    background: #2e2e2e;
     border-radius: 10px;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #222222; 
+    background: #222222;
 }
-
-
 
 hr {
     border-color: white;
@@ -98,13 +92,11 @@ a:hover {
 
 /*classes*/
 
-
-.row{
+.row {
     margin-right: -12px !important;
 }
 
-
-.text-center-contacto{
+.text-center-contacto {
     // padding-right: 100px !important;
     right: 110px;
     text-align: center;
@@ -130,7 +122,7 @@ a:hover {
     padding-top: 10px !important;
 }
 
-.card-text{
+.card-text {
     font-size: 0.8em;
     margin-top: -10px;
     color: #5a5a5a;
@@ -166,11 +158,6 @@ a:hover {
     letter-spacing: 1.5px;
 }
 
-.ul-personalizada:hover {
-    list-style-type: circle;
-}
-
-
 /*Para hacer los videos responsivos*/
 
 .video-container {
@@ -192,13 +179,13 @@ a:hover {
     height: 100%;
 }
 
-.img-blog{
+.img-blog {
     width: 60%;
 }
 
 /*ids*/
 
-#navbar-superior{
+#navbar-superior {
     display: none;
 }
 
@@ -254,18 +241,14 @@ a:hover {
     font-size: 0.91em;
 }
 
-#main-content-post{
+#main-content-post {
     color: white;
     font-family: 'Karla', sans-serif;
     font-size: 0.91em;
     padding-left: 70px;
 }
 
-
-
 // #texto-acerca{
-//     // font-size: 1em !important;
-//     // text-indent: 50px;
 // }
 
 #home-logo {
@@ -281,12 +264,8 @@ a:hover {
     /* background-color: red; */
 }
 
-#copyright{
-    color: #494949 !important; 
-}
-
-#copyright > a:hover{
-    color: red !important;
+#copyright {
+    color: #494949 !important;
 }
 
 #hogar-sidebar {
