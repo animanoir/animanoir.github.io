@@ -1,22 +1,5 @@
 $(function () {
-	//código jQuery
-	
-	//Array de imágenes frases de libros
-	// var frases = [
-	// 	'https://dl.dropbox.com/s/3b13riix4wi4kko/italo-calvino-elCaminoElegido.jpg?raw=1',
-	// 	'https://dl.dropbox.com/s/pb0h7us6jk7wf2a/murakami-Tokioblues.jpg?raw=0',
-	// 	'https://dl.dropbox.com/s/bzixfxuho99zja1/problema-con-modern-art.png?raw=0',
-	// 	'https://dl.dropbox.com/s/5tps9gvo8zf705q/musicofilia-oliver-sacks.jpg?raw=0'
-	// ];
-
-	//Aquí tiene que ser ahuevo por orden.
-	// var autorFrases = ['El barón rampante, Italo Calvino',
-	// 	'Tokio Blues, Haruki Murakami',
-	// 	'El problema con el arte moderno, (lo encontré en internet)',
-	// 	'Musicofilia, Oliver Sacks'
-	// ];
-
-	// var indexRandomFrases = Math.floor(Math.random() * frases.length);
+	//código jQuer
 
 	//hogar.html
 	$('#header-logo')

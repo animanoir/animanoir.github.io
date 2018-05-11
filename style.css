@@ -59,11 +59,12 @@
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #222222;
+    background: #2e2e2e;
 }
 
 hr {
-    border-color: white;
+    border-color: #585858 !important;
+
 }
 
 p {
