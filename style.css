@@ -53,14 +53,33 @@
 
 ::-webkit-scrollbar-thumb {
     background: #2e2e2e;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #2e2e2e;
+    background: #424242;
 }
+
+blockquote {
+    border-left: 7px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+    font-size: 1.1em;
+  }
 
 hr {
     border-color: #585858 !important;
