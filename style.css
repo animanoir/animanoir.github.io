@@ -1,6 +1,6 @@
 /*Fuentes*/
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Fjalla+One|Karla');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Fjalla+One|Signika:300');
 /* Imagen de 'animanoir' responsivo */
 
 @media screen and (max-width: 992px) {
@@ -25,9 +25,9 @@
         width: 100% !important;
     }
     #main-content-post {
-        color: white;
-        font-family: 'Karla', sans-serif;
-        font-size: 0.91em;
+        color: rgb(228, 228, 228);
+        font-family: 'Signika', sans-serif;
+        font-size: 1em;
         padding: 10px !important;
     }
     .img-blog {
@@ -149,8 +149,9 @@ a:hover {
 }
 
 .card-title {
-    font-size: 1.04em;
-    font-family: 'Karla', sans-serif;
+    font-size: 0.93em;
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .index-info {
@@ -256,15 +257,15 @@ a:hover {
 }
 
 #main-content {
-    color: white;
-    font-family: 'Karla', sans-serif;
-    font-size: 0.91em;
+    color: rgb(228, 228, 228);
+    font-family: 'Signika', sans-serif;
+    font-size: 1em;
 }
 
 #main-content-post {
-    color: white;
-    font-family: 'Karla', sans-serif;
-    font-size: 0.91em;
+    color: rgb(228, 228, 228);
+    font-family: 'Signika', sans-serif;
+    font-size: 1em;
     padding-left: 70px;
 }
 
