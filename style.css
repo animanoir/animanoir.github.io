@@ -119,7 +119,7 @@ a:hover {
 .text-center-contacto {
     // padding-right: 100px !important;
     right: 110px;
-    text-align: center;
+    text-align: center !important;
 }
 
 .contacto-imagenes {
@@ -127,10 +127,10 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.datos-miembros>p {
-    margin: 0 !important;
+.datos-miembros {
+    margin: 0!important;
+    text-align: center;
 }
-
 .card {
     margin: 0 auto;
     background-color: black;
@@ -205,6 +205,10 @@ a:hover {
 }
 
 /*ids*/
+
+#contacto-nombre{
+    letter-spacing: 2px;
+}
 
 #navbar-superior {
     display: none;
