@@ -51,6 +51,10 @@
 // }
 /* Handle */
 
+::selection{
+    background: red!important;
+}
+
 ::-webkit-scrollbar-thumb {
     background: #2e2e2e;
     border-radius: 13px;
@@ -123,7 +127,7 @@ a:hover {
 }
 
 .contacto-imagenes {
-    width: 40%;
+    width: 50%;
     padding-bottom: 10px;
 }
 
@@ -207,10 +211,16 @@ a:hover {
 .img-post-chicos{
     width: 170px;
 }
+
+.img-instructor{
+    width: 270px;
+}
+
 /*ids*/
 
 #contacto-nombre{
     letter-spacing: 2px;
+    padding: 7px;
 }
 
 #navbar-superior {
@@ -270,9 +280,9 @@ a:hover {
 }
 
 #main-content-post {
-    color: rgb(228, 228, 228);
+    color: rgb(238, 238, 238);
     font-family: 'Signika', sans-serif;
-    font-size: 1em;
+    font-size: 1.05em;
     padding-left: 70px;
 }
 
