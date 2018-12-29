@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="es" /><updated>2018-12-29T01:46:41-06:00</updated><id>/feed.xml</id><title type="html">Animanoir</title><subtitle>Fantasmas, espectros y seres etéreos.</subtitle><entry><title type="html">Evolución de Animanoir.com</title><link href="/evolucion-animanoir-web" rel="alternate" type="text/html" title="Evolución de Animanoir.com" /><published>2018-12-27T12:00:01-06:00</published><updated>2018-12-27T12:00:01-06:00</updated><id>/evolanimanoir</id><content type="html" xml:base="/evolucion-animanoir-web">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Evolución &lt;i&gt;Animanoir&lt;/i&gt;&lt;/div&gt;
+&lt;small class=&quot;text-dark&quot;&gt;(2015/18)&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pb-4&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/evolanim/evolanim-img1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
+
+  &lt;p&gt;&lt;span class=&quot;h3&quot;&gt;H&lt;/span&gt;ace algún tiempo platiqué con un par de amigos sobre ROMA, el filme de Cuarón. Uno de ellos me comentó que una de las razones por las cuales ha pegado tanto es porque es una historia &lt;em&gt;muy personal&lt;/em&gt;. Es decir, es algo que &lt;em&gt;nadie&lt;/em&gt; sabía, o sentido, con anterioridad. ¿Alguien de aquí conoce a Alfonso personalmente? Ése es el punto, &lt;strong&gt;a través de su obra extrapola su ser&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Vivimos en un mundo &lt;del&gt;asquerosamente&lt;/del&gt; hiperconectado&lt;/strong&gt;. Desde &lt;a href=&quot;https://www.goodreads.com/questions/572410-hi-alan-you-ve-said-correctly-so-far-as&quot; target=&quot;_blank&quot;&gt;Alan Moore&lt;/a&gt; hasta &lt;a href=&quot;https://pitchfork.com/features/cover-story/reader/aphex-twin/#music-from-another-planet&quot; target=&quot;_blank&quot;&gt;Aphex Twin&lt;/a&gt;, muchos concuerdan que &lt;em&gt;la contracultura ha muerto&lt;/em&gt;. Ya casi no hay esa emoción de conocer pensamientos o creaciones que van más allá de tu contexto personal. Absolutamente todo lo que se crea se conoce en un instante, sea desde México a Japón, o viceversa. Satisfacción inmediata. Por supuesto que tiene muchos pros, pero sus contras son más densos, en lo personal.&lt;/p&gt;
+
+  &lt;p&gt;&lt;span id=&quot;palabra-1&quot;&gt;Malaventurados&lt;/span&gt; aquellos seres que les tocó vivir el génesis de la era digital.&lt;/p&gt;
+
+  &lt;p&gt;Este nuevo paradigma, por consecuencia, ha modificado la psique de la sociedad. Por éso es pertinente adaptarse, pero no sacrificando la &lt;strong&gt;individualidad&lt;/strong&gt; de uno. Sin embargo, muchos lo hacen. Las redes sociales son la televisión del siglo XXI, en sentido peyorativo. Pero dados sus “beneficios”, poca gente se da cuenta cuán manipulada ésta. &lt;em&gt;¡Sube más fotos!, ¡comparte más de tus opiniones!, ¡infla tu ego!.. ¡que todo éso nos da dinero!&lt;/em&gt; El ego es adictivo; una de las más potentes drogas, y con éso lucran las corporaciones de hoy.&lt;/p&gt;
+
+  &lt;p&gt;Lo peor de todo ésto no es el capitalismo en su más puerca forma, sino la &lt;em&gt;homogeneidad social/cultural&lt;/em&gt; que ésto provoca. Por más “artístico” que algo intente ser, si lo veo en Instagram, para mí, automáticamente, se convierte en otro más del montón. Es algo psicológico; es &lt;strong&gt;el contexto&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;Contexto, contexto, contexto. Por éso siempre insto a todas las personas que tengan algo que mostrar a &lt;em&gt;crearse un lugar &lt;strong&gt;personal&lt;/strong&gt;&lt;/em&gt;. Es importante, en mi opinión, volver a cierta tribalidad que fertilice un nuevo tipo de creatividad, y no dejarse corromper por las efímeras modas de hoy en día.&lt;/p&gt;
+
+  &lt;p&gt;Por énde mi sitio web.&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Animanoir&lt;/em&gt; no es más que un nombre cool que se me ocurrió para un ficticio estudio de animación por allí en el 2014. Poco tiempo después encontré que también es el nombre de un álbum de una banda llamada &lt;a href=&quot;https://www.discogs.com/es/Theatres-Des-Vampires-Anima-Noir/master/445069&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Theatres Des Vampires&lt;/em&gt;&lt;/a&gt;. Es decir, &lt;em&gt;todo se ha inventado ya&lt;/em&gt;; a alguien ya se le ha ocurrido &lt;em&gt;tu&lt;/em&gt; gran idea.&lt;/p&gt;
+
+  &lt;p&gt;Explicaré brevemente cómo es que está desarrollada a nivel de diseño, funcionamiento y tecnologías. Para ello, he aquí letras bien grandotas y venudas para quienes quieran el piquete rápido.&lt;/p&gt;
+
+  &lt;h2&gt;&lt;a href=&quot;#diseño&quot;&gt;Diseño&lt;/a&gt;&lt;/h2&gt;
+  &lt;h2&gt;&lt;a href=&quot;#funcion&quot;&gt;Funcionamiento&lt;/a&gt;&lt;/h2&gt;
+  &lt;h2&gt;&lt;a href=&quot;#tecnos&quot;&gt;Tecnologías&lt;/a&gt;&lt;/h2&gt;
+
+  &lt;hr /&gt;
+
+  &lt;div id=&quot;diseño&quot;&gt;
+    &lt;h2&gt;Diseño&lt;/h2&gt;
+
+    &lt;p&gt;Con diseño me refiero a los colores, UI/UX, etc. &lt;strong&gt;Omití por completo cualquier trend de frontend que exista&lt;/strong&gt;. Honestamente estoy hastiado de ver sitios web con la misma puta plantilla pirateada. Éso es lo que hacen aquellos que buscan dinero fácil. Decidí inspirarme en mis gustos, en lo que yo espero de un sitio web, es decir:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Minimalista.&lt;/li&gt;
+      &lt;li&gt;Directo al contenido.&lt;/li&gt;
+      &lt;li&gt;Estético.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Esta página la construí desde cero. Comprendí que &lt;strong&gt;las cosas realmente satisfactorias toman su tiempo&lt;/strong&gt;. Ya no queiero depender de otros, por éso, creo que resultó tal cual lo imaginé y maqueté.&lt;/p&gt;
+
+    &lt;p&gt;Una cosa muy importante que cambié fue el &lt;em&gt;cómo se leen este tipo de entradas&lt;/em&gt;. En el sitio anterior, el &lt;em&gt;menú&lt;/em&gt; estaba a la izquierda, mientras que el contenido un tanto en el centro. Pasable, todo bien. Pero en esta ocasión quería hacerlo un tanto más &lt;em&gt;familiar&lt;/em&gt;, al menos a las personas no arábigas: De izquierda a derecha la lectura. Evito decir “usuarios”; sí, técnicamente así se les llamarían, pero prefiero llamarlos &lt;strong&gt;personas, seres humanos&lt;/strong&gt;. Creo que una interfaz, entre más humana, mejor.&lt;/p&gt;
+
+    &lt;p&gt;La paleta de colores es simple. Quería algo que se acomodara a mi personalidad, de éso no hay tanto pierde. Intenté que combinaran, así como las fuentes. Reitero, los &lt;strong&gt;detalles lo son todo&lt;/strong&gt;, y decisiones como los pares de fuente a usar afectan drásticamente la usabilidad.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+  &lt;div id=&quot;funcion&quot;&gt;
+    &lt;h2&gt;Funcionamiento&lt;/h2&gt;
+
+    &lt;p&gt;Con funcionamiento me refiero a &lt;em&gt;cómo funciona internamente el sitio web&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Este sitio es estático, o sea, no usa bases de datos. Pero la forma en la que se construyó cambia mucho las cosas. Todo viene de un &lt;strong&gt;Static Site Generator&lt;/strong&gt;, &lt;strong&gt;Jekyll&lt;/strong&gt; específicamente (más de éso en &lt;span&gt;&lt;a href=&quot;#tecnos&quot;&gt;Tecnologías&lt;/a&gt;&lt;/span&gt;). La razón por la que decidí aprenderlo a fondo/usarlo es porque permite:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Modularidad.&lt;/li&gt;
+      &lt;li&gt;Desarrollo más rápido.&lt;/li&gt;
+      &lt;li&gt;Organización.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Para mí, &lt;strong&gt;la modularidad es libertad&lt;/strong&gt;. Todo sistema se construye de subsistemas. Si estamos al tanto de cada uno de ellos, es más fácil visualizar el todo. No por nada escribir este tipo de posts es sumamente sencillo y satisfactorio. &lt;strong&gt;Jekyll&lt;/strong&gt; permite ésto; bueno, cualquier SSG, cualquier framework MVS, me imagino que en cualquier parte del mundo todo (debería) ser modular. Se me ocurrieon un chingo de ideas qué ponerle a este sitio, pero como me propuse un deadline para antes del fin del 2017 (&lt;strong&gt;alabados sean los deadlines&lt;/strong&gt;), decidí concentrarme en que funcione correctamente y para futuras actualizaciones.&lt;/p&gt;
+
+    &lt;p&gt;Otra cosa sumamente importante fue la &lt;strong&gt;optimización&lt;/strong&gt;, es decir, que corra lo más rápido que pueda. Hay una tendencia en la que le ponen un pinche loader a todas las páginas. Concuerdo que hay veces que es mejor mostrar todo de putazo a irlo viendo cargar, ¿pero pues qué tanto le metes? Este tipo de trucos, que bien suenan fundamentales, te los vas encontrando en el camino. Algunos de los que tengo pleno conocimiento y apliqué fueron:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Reducción de &lt;em&gt;HTTP requests&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;Optimización de imágenes.&lt;/li&gt;
+      &lt;li&gt;Carga asíncrona de ciertos elementos.&lt;/li&gt;
+      &lt;li&gt;Programación más limpia y minificada.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Con los requests, me refiero a &lt;em&gt;entre menos llamadas le pidas al servidor, mejor&lt;/em&gt;. O sea, si tienes un putero de archivos y los quieres cargar en una sola página (sin AJAX), pues todo se alentará horriblemente. Por éso, tecnologías como &lt;a href=&quot;https://webpack.js.org/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;webpack&lt;/strong&gt;&lt;/a&gt;, que es una herramienta que te minifica, optimiza imágenes, traduce SASS a CSS, y, por sobre todo, &lt;strong&gt;intenta crear un sólo archivo .js, .css&lt;/strong&gt; resultan importantes para el desarrollo web moderno.&lt;/p&gt;
+
+    &lt;p&gt;Optimización de imágenes es reducir lo más que se pueda su tamaño para que se descarguen rápido. Menos de 1mb es suficiente. Menos de 500kb, excelso.&lt;/p&gt;
+
+    &lt;p&gt;La carga asíncrona quiere decir que, si tienes algún script/js, el renderizado de la página &lt;em&gt;no se detenga&lt;/em&gt; hasta que funcione éste; si no, que siga cargando lo demás, y el script se ejecute cuando esté listo por su cuenta. Uso un poquito de js aquí, por lo que era necesario reducir la obstrucción y bloqueo de carga del HTML.&lt;/p&gt;
+
+    &lt;p&gt;Y con programación más limpia y minificada me refiero a &lt;strong&gt;usar una lógica más adecuada de programación que reduzca las líneas de código a ejecutar&lt;/strong&gt;. Por allí hay un mito que no importan tanto cuántas líneas de código, sino que funcione. Difiero. &lt;strong&gt;Todo, absolutamente todo ocupa espacio en el mundo físico&lt;/strong&gt;, desde &lt;a href=&quot;http://www.human-memory.net/processes_storage.html&quot; target=&quot;_blank&quot;&gt;las memorias en un cerebro&lt;/a&gt;, hasta texto en una computadora. Por éso es importante reducir lo más que se pueda algún programa para que éste funcione de manera óptima.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+  &lt;div id=&quot;tecnos&quot;&gt;
+    &lt;h2&gt;Tecnologías&lt;/h2&gt;
+
+    &lt;p&gt;Me refiero a &lt;em&gt;las herramientas que usé para la creación de este sitio&lt;/em&gt;. Como mencioné arriba, usé el SSG &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Jekyll&lt;/strong&gt;&lt;/a&gt;, aunque lo usé por consecuencia de querer usar &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/a&gt; para hostear mi sitio web &lt;b&gt;gratis&lt;/b&gt;.&lt;/p&gt;
+
+    &lt;p&gt;A todos, siempre a todos les recomiendo usarlo ya que, para muchos creadores, artistas, desarrolladores, etc., &lt;strong&gt;no les es necesario rentar una suite completa pseudoempresarial&lt;/strong&gt;; ¡te ahorras cerca de $2000.00 MXN! Éso es comida para 3 meses para mí. Lo que intento decir es que &lt;strong&gt;es importante adecuar el plan a las expectativas que se esperan para que haya cohesión entre ambas&lt;/strong&gt;, no inflar el diseño innecesariamente. GitHub cuenta con la seguridad y fiabilidad de una gran comunidad, por lo que no veo razón alguna para no usarlo.&lt;/p&gt;
+
+    &lt;p&gt;Dentro de Jekyll, pues, como cualquier buen SSG, tiene su propio template language: &lt;strong&gt;Liquid&lt;/strong&gt;. Fascinante, me ahorra chingo de trabajo y me permite modularidad. E igual usé SASS. Digo, no puedo desarrollar tanto en este aspecto “tecnológico” dado que usé lo que siempre se ha usado y probablemente usará el resto de la eternidad en el desarrollo web: HTML/CSS/JS. A lo que iba era &lt;strong&gt;cuánto nivel de abstracción empleeé&lt;/strong&gt;. SASS (y Boostrap )es una abstracción de CSS, &lt;a href=&quot;https://threejs.org/&quot; target=&quot;_blank&quot;&gt;Three.js&lt;/a&gt; una abstracción de &lt;strong&gt;WebGL en JS&lt;/strong&gt; (el cual usé para una simple animación 3D en la página de  &lt;a href=&quot;contacto.html&quot; target=&quot;_blank&quot;&gt;Contacto&lt;/a&gt;). Recalco que en este sitio no me fue necesario implementar algún algoritmo conocido de ciencias de la computación o similar ya que es, relativamente, simple. Pero, en un futuro, muy probablemente lo haga.&lt;/p&gt;
+
+    &lt;p&gt;En fin, la programación, al final, &lt;a href=&quot;https://www.quora.com/What-is-programming-actually&quot; target=&quot;_blank&quot;&gt;se reduce a mover electricidad de aquí para allá dentro de un circuito&lt;/a&gt;. Vaya, hasta puedes &lt;a href=&quot;https://www.toothycat.net/~hologram/Turing/HowItWorks.html&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;programar&lt;/em&gt; con cartas de Magic The Gathering&lt;/a&gt;. El punto es &lt;em&gt;cuán fácil puedes realizar alguna acción&lt;/em&gt;; facilidad = organización y rapidez. Por éso me fue necesario aprender nuevas tecnologías para desarrollar mi sitio más agilmente.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+  &lt;p&gt;En conclusión, quería actualizar mi página para aprender nuevas tecnologías web, así como para adecuarlo al diseño y funcionalidad que a mí me satisface. También, comparto todo ésto porque creo que el &lt;strong&gt;conocimiento debe ser libre y compartido&lt;/strong&gt;. No quisiera morir sabiendo que pude haber ayudado a alguien, pero no lo hice.&lt;/p&gt;
+
+  &lt;p&gt;Ojalá te sirva a ti :^)&lt;/p&gt;
+
+  &lt;p&gt;Ahora un canción funk muy buena de este dude.&lt;/p&gt;
+
+  &lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/cr6vtUb4r5s&quot; frameborder=&quot;0&quot; allow=&quot;encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script&gt;
+
+let idPalabra = document.querySelector('#palabra-1');
+let palabra1 = 'Bienaventurados';
+let palabra2 = 'Malaventurados';
+
+idPalabra.textContent = palabra1;
+
+setInterval(function(){
+    if (idPalabra.textContent === palabra1) {
+        idPalabra.textContent = palabra2;
+    } else {
+        idPalabra.textContent = palabra1;
+    }
+}, 1000);
+
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Evolución Animanoir (2015/18)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/gifs/logos-animanoir.gif" /></entry><entry><title type="html">Festival Sonorum</title><link href="/festival-sonorum" rel="alternate" type="text/html" title="Festival Sonorum" /><published>2018-12-27T11:00:00-06:00</published><updated>2018-12-27T11:00:00-06:00</updated><id>/festsonorum</id><content type="html" xml:base="/festival-sonorum">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Web &lt;i&gt;F. Sonorum (Qro.)&lt;/i&gt;&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(2016/17)&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pb-4&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/sonorum/festivalsonorum-img1.gif&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
+
+  &lt;h3&gt; &lt;a href=&quot;https://festivalsonorum.github.io/pagina-web-sonorum/&quot; target=&quot;_blank&quot;&gt;Festival Sonorum . com&lt;/a&gt; &lt;/h3&gt;
+
+  &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;h3&quot;&gt;F&lt;/span&gt;estival Sonorum&lt;/strong&gt; es un festival dedicado a &lt;strong&gt;la exploración de nuevo medios (tecnológicos)&lt;/strong&gt; para la creación artística. Participé desarrollando su &lt;strong&gt;sitio web&lt;/strong&gt; para las ediciones del 2016 y 2017.&lt;/p&gt;
+
+  &lt;p&gt;Festival Sonorum es una propuesta que busca conjugar diferentes medios artisticos/tecnológicos en un sólo sitio, entre los que han destacado Takami Nakamoto, /* pac interactive*, Esstro9, entre otros importantes exponentes del arte digital a nivel mundial.&lt;/p&gt;
+
+  &lt;p&gt;Estos eventos buscan atraer a la gente al lado bueno de la fusión entre arte y tecnología.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;/assets/posts/sonorum/sonorum1.jpg&quot; /&gt;
+&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;/assets/posts/sonorum/sonorum2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web F. Sonorum (Qro.) (2016/17)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/gifs/sonorum.gif" /></entry><entry><title type="html">Gifs</title><link href="/post4" rel="alternate" type="text/html" title="Gifs" /><published>2018-12-15T19:52:01-06:00</published><updated>2018-12-15T19:52:01-06:00</updated><id>/gifsello</id><content type="html" xml:base="/post4">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Gifs&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(siempre)&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pb-4&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello.gif&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
+
+  &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;h3&quot;&gt;A&lt;/span&gt;mo la animación&lt;/strong&gt;, eventualmente haré animación 2D/tradicional, 3D, interactiva, lo que sea; todo lo que se mueva. Pero aún sigo aprendiendo tanto a dibujar como a animar (artes sumamente complejas).&lt;/p&gt;
+
+  &lt;p&gt;Mientras tanto, gifs:&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello-img2.gif&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello-img3.gif&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Para más, &lt;a href=&quot;https://ello.co/animanoir&quot; target=&quot;_blank&quot;&gt;ello.co&lt;/a&gt;, y el &lt;a href=&quot;https://www.flickr.com/photos/animanoir/&quot; target=&quot;_blank&quot;&gt;Flickr&lt;/a&gt; de una ves, alv.&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Gifs (siempre)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/gifs/ello-img1.gif" /></entry><entry><title type="html">Arïsta.mx</title><link href="/arista-web" rel="alternate" type="text/html" title="Arïsta.mx" /><published>2018-11-26T10:52:01-06:00</published><updated>2018-11-26T10:52:01-06:00</updated><id>/arista</id><content type="html" xml:base="/arista-web">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Web: &lt;i&gt;Arïsta.mx&lt;/i&gt; &lt;/div&gt;
+&lt;small class=&quot;text-dark&quot;&gt;(2017)&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pb-4&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/arista/arista.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
+
+  &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;h3&quot;&gt;A&lt;/span&gt;rista®.mx&lt;/strong&gt; es un estudio en Querétaro, México que se dedica a diseñar bolsas con estilos únicos, basados en la naturaleza misma.&lt;/p&gt;
+
+  &lt;p&gt;Lamentablemente, por ahora, está offline. Sin embargo, una imagen del layout se encuentra arriba. También los invito a visitar su página en &lt;a href=&quot;https://www.facebook.com/Ar%C3%AFsta-Accesorios-de-piel-553815175009624/&quot; target=&quot;_blank&quot;&gt;Facebook: Arïsta&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web: Arïsta.mx (2017)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/gifs/arista-web.gif" /></entry><entry><title type="html">Homo Techno Sapiens</title><link href="/revista-ouroboros" rel="alternate" type="text/html" title="Homo Techno Sapiens" /><published>2017-12-15T19:52:01-06:00</published><updated>2017-12-15T19:52:01-06:00</updated><id>/hts</id><content type="html" xml:base="/revista-ouroboros">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Revista Ouroboros&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(2014)&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pb-4&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/rouroboros/ro-img1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
+
+  &lt;p&gt;&lt;span class=&quot;h3&quot;&gt;A&lt;/span&gt; principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.&lt;/p&gt;
+
+  &lt;p&gt;Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado Homo Techno Sapiens (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.&lt;/p&gt;
+
+  &lt;p&gt;La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/rouroboros/ro-img2.jpg&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.&lt;/p&gt;
+
+  &lt;p&gt;La revista la pueden encontrar en la &lt;a href=&quot;http://libreria.uaq.mx/&quot; target=&quot;_blank&quot;&gt;Librería UAQ&lt;/a&gt; y en la estantería de libros en FBA de la misma universidad.&lt;/p&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Revista Ouroboros (2014)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/gifs/hts-gif.gif" /></entry></feed>

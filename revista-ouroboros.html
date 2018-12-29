@@ -1,237 +1,180 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Título dinámico -->
-    <title>Revista Ouroboros</title>
-
-    <!-- Bootstrap 4.0.0-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
-
-
-    <!-- Mi CSS. Está así porque no entiendo putas cómo hacer que funcione con SASS correcatmente.-->
-    <link rel="stylesheet" href=" /style.css ">
-    <!-- CSS para resaltar código de programación -->
-    <link href=" /syntax.css " rel="stylesheet">
-
-    <!-- Meta descripción del sitio -->
-    <meta name="description" content="Animación y arte digital (también tradicional). Fantasmas, espectros y seres etéreos.">
-
-    <!-- Metas Twitter -->
-    <meta name="twitter:title" content="Revista Ouroboros">
-    <meta name="twitter:description" content="Animación y arte digital. Fantasmas, espectros y seres etéreos.">
-    <meta name="twitter:image" content="tanta.jpg">
-    <meta name="twitter:site" content="@geosmina_">
-    <meta name="twitter:creator" content="@geosmina_">
-
-    <!-- Meta OG de Facebook -->
-    <meta property="og:title" content="Revista Ouroboros" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://animanoir.com/" />
-    <meta property="og:description" content="Animación y arte digital. Fantasmas, espectros y seres etéreos." />
-    <meta property="og:image" content="tanta.jpg" />
-
-    <meta name="author" content="Óscar A. Montiel">
-    <meta name="keywords" content="Animation Animación Querétaro Arte Sexo Fantasmas Ghosts Dark Alma Noche Diseño Gráfico Graphic Design Digtial Tradicional Traditional Óscar Alejandro Montiel Mejía Óscar A. Montiel Videogames Unity Processing Javascript p5.js Magic Magia Front End Development UX Design Ilustración Illustration Photo Editing Programming Programación Mexico Music IDM Ambient Fog Creepy Night Noche Nocturne Nocturno">
-    <meta name="description" content="Animation Animación Querétaro Arte Sexo Fantasmas Ghosts Dark Alma Noche Diseño Gráfico Graphic Design Digtial Tradicional Traditional Óscar Alejandro Montiel Mejía Óscar A. Montiel Videogames Unity Processing Javascript p5.js Magic Magia Front End Development UX Design Ilustración Illustration Photo Editing Programming Programación Mexico Music IDM Ambient Fog Creepy Night Noche Nocturne Nocturno">
-
-
-</head>
-
-<body>
-    <!-- Navbar superior en móvil -->
-    <nav id="navbar-superior" class="  navbar navbar-expand-lg navbar-dark  ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li> -->
-
-        <li class="fuente-fjalla ul-personalizada">
-                <a class="nav-link" href="animacion.html">Animación</a>
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-                <a class="nav-link" href="interaccion.html">Interacción</a>
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-                <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-              <a class="nav-link" href="acerca.html">Acerca</a>
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-
-      </ul>
-    </div>
-  </nav>
-
-    <!-- Imagen header que dice Animanoir -->
-    <header id="header-home">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <a href="home.html"><img id="header-logo" class="img-fluid" src="../media/animanoir-logo-blanco-chico.png" alt=""/> </a> 
-      </div>
-    </div>
-  </div>
-</header>
-
-    <!-- El sidebar y el contenido  -->
-    <div class="container-fluid">
-  <div class="row">
-    <!-- Menú lateral -->
-    <nav class="col-sm-2">
-    <div class="col-sm-12" id="fixed-sidebar">
-        <!-- <a href="index.html"><img id="home-logo" src="../media/logo-prueba.jpg" alt="Logo de Animanoir"></a>  -->
-        <ul>
-            <li class="fuente-fjalla ul-personalizada">
-                
-                <a title="Animación, ilustración, etc." href="animacion.html">Animación</a>
-                
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-                
-                <a title="Páginas web, programación, contenido digital interactivo, etc." href="interaccion.html">Interacción</a>
-                
-            </li>
+<html lang="es"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Homo Techno Sapiens | Animanoir</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Homo Techno Sapiens" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Revista Ouroboros (2014)" />
+<meta property="og:description" content="Revista Ouroboros (2014)" />
+<link rel="canonical" href="/revista-ouroboros" />
+<meta property="og:url" content="/revista-ouroboros" />
+<meta property="og:site_name" content="Animanoir" />
+<meta property="og:image" content="/assets/gifs/hts-gif.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-15T19:52:01-06:00" />
+<script type="application/ld+json">
+{"datePublished":"2017-12-15T19:52:01-06:00","dateModified":"2017-12-15T19:52:01-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"/revista-ouroboros"},"url":"/revista-ouroboros","image":"/assets/gifs/hts-gif.gif","description":"Revista Ouroboros (2014)","@type":"BlogPosting","headline":"Homo Techno Sapiens","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Animanoir" /><!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
+  <!-- SEO que pone Jekyll --><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Homo Techno Sapiens | Animanoir</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Homo Techno Sapiens" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Revista Ouroboros (2014)" />
+<meta property="og:description" content="Revista Ouroboros (2014)" />
+<link rel="canonical" href="/revista-ouroboros" />
+<meta property="og:url" content="/revista-ouroboros" />
+<meta property="og:site_name" content="Animanoir" />
+<meta property="og:image" content="/assets/gifs/hts-gif.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-15T19:52:01-06:00" />
+<script type="application/ld+json">
+{"datePublished":"2017-12-15T19:52:01-06:00","dateModified":"2017-12-15T19:52:01-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"/revista-ouroboros"},"url":"/revista-ouroboros","image":"/assets/gifs/hts-gif.gif","description":"Revista Ouroboros (2014)","@type":"BlogPosting","headline":"Homo Techno Sapiens","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<meta property="og:image" content="/assets/op-image.jpg" />
+  <meta name="twitter:card" content="/assets/op-image.jpg">
+<meta name="twitter:site" content="@geosmina_94">
+<meta name="twitter:creator" content="@geosmina_94>
+<meta name="twitter:title" content="}">
+<meta name="twitter:description" content="Fantas, espectros y seres etéreos." content=""/assets/op-image.jpg"">
+</head><body style="background: #020202;"><div id="navbar-oculto" class="hidden""></div>
+<div id="menu-navbar">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="404.html">A N I M A N O I R</a>
+                <div class="collapse navbar-collapse font-italic" id="navbarToggler">
+                    <div class="navbar-nav float-right text-right pr-3">
+                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio.html">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-anim.html">Animación</a>
+                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-inter.html">Interacción</a>
+                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-blog.html">Textual/Blog</a>
+                        <a class="fuente-opensans h4 nav-item nav-link" href="acerca.html">Acerca</a>
+                        <a class="fuente-opensans h4 nav-item nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+        </nav>
+</div>
+<!-- Menú lateral. -->
+<div id="menu-lateral">
+    <div class="p-5 font-italic">
+        <a title="Inicio" href="purgatorio.html">
+            <h1 id="menu-lat-inicio" class="fuente-josefin text-white">Animanoir</h1>
+        </a>
+        <ul class="text-white fuente-opensans list-unstyled">
+            <li><a class="pr-1" href="purgatorio-anim.html">Animación</a></li>
+            <li><a class="pr-1" href="purgatorio-inter.html">Interacción</a></li>
+            <li><a class="pr-1" href="purgatorio-blog.html">Textual/Blog</a></li>
             <br>
-            <li class="fuente-fjalla ul-personalizada">
-                
-                <a class="text-white" href="blog.html">Textual/Blog</a>
-                
-            </li>
-            <br>
-            <li class="fuente-fjalla ul-personalizada">
-                
-                <a href="acerca.html">Acerca</a>
-                
-            </li>
-            <li class="fuente-fjalla ul-personalizada">
-                
-                <a href="contacto.html">Contacto</a>
-                
-            </li>
+            <li><a class="pr-1" href="acerca.html">Acerca</a></li>
+            <li><a class="pr-1" href="contacto.html">Contacto</a></li>
         </ul>
     </div>
-</nav>
-    <div class="col-sm-10" id="main-content-post">
-      <div class="row">
-        <div class="col-sm-10">
-          <h2></h2>
-          <div class="text-justify">
-            <style>
-#main-content{
-    text-align: justify;
-}
-</style>
-
-<h2 class="fuente-fjalla-titulo">Homo techno sapiens</h2>
-
-<p>A principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.</p>
-
-<div class="text-center">
-<img class="img-fluid rounded" src="https://dl.dropbox.com/s/jsvyu0at0zjjasy/CAM01086.jpg?raw=1" />
+</div><main aria-label="Content">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="py-5">
+          <div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Revista Ouroboros</div> <small class="text-dark">(2014)</small>
 </div>
 
-<p>Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado <em>Homo Techno Sapiens</em> (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.</p>
-
-<p>La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.</p>
-
-<div class="text-center">
-<img class="img-fluid rounded" src="https://dl.dropbox.com/s/3kfkiwi9oqptlj9/cam01075.jpg?raw=1" />
+<div class="pb-4">
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img1.jpg" />
 </div>
 
-<p>A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.</p>
+<hr />
 
-<div class="text-center">
-<img class="img-fluid rounded" src="https://dl.dropbox.com/s/3ewtar28ad3iha3/CAM01089.jpg?raw=1" />
+<div class="pt-1 fuente-opensans color-lectura posts">
+
+  <p><span class="h3">A</span> principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.</p>
+
+  <p>Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado Homo Techno Sapiens (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.</p>
+
+  <p>La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.</p>
+
+  <p><img class="img-fluid" src="/assets/posts/rouroboros/ro-img2.jpg" /></p>
+
+  <p>A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.</p>
+
+  <p>La revista la pueden encontrar en la <a href="http://libreria.uaq.mx/" target="_blank">Librería UAQ</a> y en la estantería de libros en FBA de la misma universidad.</p>
+
 </div>
 
-<p>La revista la pueden encontrar en la <a href="http://libreria.uaq.mx/" target="_blank">Librería UAQ</a> y en la estantería de libros en Bellas Artes de la UAQ :^)</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- Algo puede ir aquí -->
+      </div>
+    </div>
+  </div>
 
-<p class="text-right">-Ó</p>
+  <!-- <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Homo Techno Sapiens</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2017-12-15T19:52:01-06:00" itemprop="datePublished">Dec 15, 2017
+      </time></p>
+  </header>
 
-          </div>
-          <br>
-          
-            <div id="disqus_thread"></div>
-<script>
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Revista Ouroboros</div> <small class="text-dark">(2014)</small>
+</div>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+<div class="pb-4">
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img1.jpg" />
+</div>
 
-var disqus_config = function () {
-this.page.url = "https://animanoir.com/revista-ouroboros";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "/revistaOuroboros2014"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+<hr />
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://animanoirdisqusv4.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
-          
+<div class="pt-1 fuente-opensans color-lectura posts">
+
+  <p><span class="h3">A</span> principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.</p>
+
+  <p>Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado Homo Techno Sapiens (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.</p>
+
+  <p>La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.</p>
+
+  <p><img class="img-fluid" src="/assets/posts/rouroboros/ro-img2.jpg" /></p>
+
+  <p>A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.</p>
+
+  <p>La revista la pueden encontrar en la <a href="http://libreria.uaq.mx/" target="_blank">Librería UAQ</a> y en la estantería de libros en FBA de la misma universidad.</p>
+
+</div>
+
+  </div><a class="u-url" href="/revista-ouroboros" hidden></a> -->
+</article>
+  </main><footer>
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-center ">
+          <p class="small fuente-josefin-light text-muted"> <span class="text-muted"><a title="Ahora soy un fantasma." href="404.html">Óscar A. Montiel</a></span> | Animanoir® 2019</p>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-    <!-- Footer normal -->
-    <!--footer-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm text-center">
-                <p title="Per aspera ad astra" id="copyright"> Animanoir® 2018</p>
-            </div>
-        </div>
-    </div>
 </footer>
-<!--fin de footer-->
-
-    <!-- El jQuery de Bootstrap 4.0.0beta -->
-    <!--Bootstrap jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script> -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> <script async src="js/hogarjq.js"></script>
-
-    <!--Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96988751-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-96988751-1');
-</script>
-
-
+<!-- BS 4.2 JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script defer src="/assets/js/app.js"></script>
 </body>
-
 </html>
