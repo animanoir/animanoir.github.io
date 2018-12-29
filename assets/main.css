@@ -95,7 +95,7 @@ body {
 
 .fuente-josefin-limbo {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 4rem !important; }
+  font-size: 3.5rem !important; }
 
 .fuente-josefin {
   font-family: "Josefin Sans", sans-serif; }
@@ -207,3 +207,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.bg-card-dark {
+  background-color: #020202; }
+
+.activo {
+  background-color: white;
+  color: black !important;
+  font-weight: bold; }
+
+.bg-navbar-color {
+  background-color: #181817; }

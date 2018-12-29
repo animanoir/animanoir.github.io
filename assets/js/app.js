@@ -52,8 +52,9 @@ window.onload = function () {
         'Yesterday and today.',
         'Llévame un día a tu lugar secreto.',
         'Hipersensible a la realidad.',
-        'A.R Kane invented shoegaze.',
-        'A stop at the chord cascades.'
+        'A.R Kane - Lollita',
+        'A stop at the chord cascades.',
+        'Éso es todo, puerco. Éso es todo.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 

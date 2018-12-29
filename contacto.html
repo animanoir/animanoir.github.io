@@ -36,14 +36,14 @@
 {"url":"/contacto","description":"Fantasmas, espectros y seres etéreos.","@type":"WebPage","headline":"Animanoir","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <meta property="og:image" content="/assets/op-image.jpg" />
-  <meta name="twitter:card" content="/assets/op-image.jpg">
-<meta name="twitter:site" content="@geosmina_94">
-<meta name="twitter:creator" content="@geosmina_94>
-<meta name="twitter:title" content="}">
-<meta name="twitter:description" content="Fantas, espectros y seres etéreos." content=""/assets/op-image.jpg"">
+  <meta name="twitter:card" content="/assets/op-image.jpg" />
+  <meta name="twitter:site" content="@geosmina_94">
+  <meta name="twitter:creator" content="@geosmina_94">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Fantasmas, espectros y seres etéreos." content=""/assets/op-image.jpg"">
 </head><body style="background: #020202;"><div id="navbar-oculto" class="hidden""></div>
 <div id="menu-navbar">
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-md bg-navbar-color">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -51,12 +51,12 @@
                 <a class="navbar-brand" href="404.html">A N I M A N O I R</a>
                 <div class="collapse navbar-collapse font-italic" id="navbarToggler">
                     <div class="navbar-nav float-right text-right pr-3">
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio.html">Inicio<span class="sr-only">(current)</span></a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-anim.html">Animación</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-inter.html">Interacción</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-blog.html">Textual/Blog</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="acerca.html">Acerca</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="contacto.html">Contacto</a>
+                        <a class="fuente-opensans h4 nav-item nav-link " href="limbo.html">Inicio</a>
+                        <a class="fuente-opensans h4 nav-item nav-link " href="limbo-anim.html">Animación</a>
+                        <a class="fuente-opensans h4 nav-item nav-link " href="limbo-inter.html">Interacción</a>
+                        <a class="fuente-opensans h4 nav-item nav-link " href="limbo-blog.html">Textual/Blog</a>
+                        <a class="fuente-opensans h4 nav-item nav-link " href="acerca.html">Acerca</a>
+                        <a class="fuente-opensans h4 nav-item nav-link activo pr-1" href="contacto.html">Contacto</a>
                     </div>
                 </div>
         </nav>
@@ -64,16 +64,16 @@
 <!-- Menú lateral. -->
 <div id="menu-lateral">
     <div class="p-5 font-italic">
-        <a title="Inicio" href="purgatorio.html">
+        <a title="Inicio" href="limbo.html">
             <h1 id="menu-lat-inicio" class="fuente-josefin text-white">Animanoir</h1>
         </a>
         <ul class="text-white fuente-opensans list-unstyled">
-            <li><a class="pr-1" href="purgatorio-anim.html">Animación</a></li>
-            <li><a class="pr-1" href="purgatorio-inter.html">Interacción</a></li>
-            <li><a class="pr-1" href="purgatorio-blog.html">Textual/Blog</a></li>
+            <li><a class="pr-1  " href="limbo-anim.html">Animación</a></li>
+            <li><a class="pr-1  " href="limbo-inter.html">Interacción</a></li>
+            <li><a class="pr-1 " href="limbo-blog.html">Textual/Blog</a></li>
             <br>
-            <li><a class="pr-1" href="acerca.html">Acerca</a></li>
-            <li><a class="pr-1" href="contacto.html">Contacto</a></li>
+            <li><a class="pr-1  " href="acerca.html">Acerca</a></li>
+            <li><a class="pr-1 activo " href="contacto.html">Contacto</a></li>
         </ul>
     </div>
 </div><main aria-label="Content">
@@ -180,7 +180,7 @@ window.addEventListener('resize', function () {
 
 function swapTextures() {
     let i = Math.floor(Math.random()*arrayTexturas.length);
-    console.log(i);
+    // console.log(i);
     circleMat.map = arrayTexturas[i];
     // if (circleMat.map === texture1) {
     //     circleMat.map = texture2;
