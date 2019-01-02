@@ -14,7 +14,7 @@ window.onload = function () {
         'Safety In Solitude',
         'De una sola fuente todas las cosas dependen.',
         'Cancún: Neo-Tristeza',
-        'La sublimación del Powerchord',
+        'La sublimación del Powerchord.',
         'Muan Januel',
         'Diplopia mental.',
         'El vaivén de tu sangre en momentos de sosiego.',
@@ -40,9 +40,8 @@ window.onload = function () {
         'Nah und fern.',
         'Fortuna favet fortibus',
         'El inconsciente colectivo.',
-        'Él te ama.',
         'Ráyame mi muro.',
-        'Shine on You crazy Diamond',
+        'Shine on, You crazy Diamond',
         'Cuando uno deja de crecer, empieza a morir.',
         'Amor adolescente.',
         'Autoscopia',
@@ -54,7 +53,10 @@ window.onload = function () {
         'Hipersensible a la realidad.',
         'A.R Kane - Lollita',
         'A stop at the chord cascades.',
-        'Éso es todo, puerco. Éso es todo.'
+        'Éso es todo, puerco. Éso es todo.',
+        'Everything you do is a balloon.',
+        '森を覚えている',
+        'Music has the right to children.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
