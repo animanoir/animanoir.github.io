@@ -56,7 +56,8 @@ window.onload = function () {
         'Éso es todo, puerco. Éso es todo.',
         'Everything you do is a balloon.',
         '森を覚えている',
-        'Music has the right to children.'
+        'Music has the right to children.',
+        'Lo siniestro es aquello que, debiendo permanecer oculto, se ha revelado.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
