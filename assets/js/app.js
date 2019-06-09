@@ -7,7 +7,6 @@ window.onload = function () {
         'Sexo, muerte y matemáticas.',
         'Per aspera ad astra.',
         'Paciencia y persistencia.',
-        '¿Te quieres casar conmigo?',
         'Dómr um dauðan hvern.',
         'Aphex Twin - 4',
         'La armonía es caos domesticado.',
@@ -29,7 +28,6 @@ window.onload = function () {
         'Bulgarian otaku.',
         'h411oween Em0',
         'By working the soil, we cultivate the sky',
-        'What does Mount Eerie mean?',
         'One more red nightmare.',
         'In you I\'m lost',
         'Petiatil Cx Htdui',
@@ -57,7 +55,8 @@ window.onload = function () {
         'Everything you do is a balloon.',
         '森を覚えている',
         'Music has the right to children.',
-        'Lo siniestro es aquello que, debiendo permanecer oculto, se ha revelado.'
+        'Lo siniestro es aquello que, debiendo permanecer oculto, se ha revelado.',
+        'WHO CONTROLS THE BASS, CONTROLS THE MIND.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
