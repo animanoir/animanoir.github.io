@@ -56,12 +56,15 @@ window.onload = function () {
   let idLimboNombre = document.querySelector("#limbo-nombre");
 
   idP5.onmouseover = function () {
-    idLimboNombre.style.textShadow = "-4px 5px 1px red, 1px 4px 2px green, 4px 7px 3px blue";
+    idLimboNombre.style.textShadow = "20px 0px rgb(180, 0, 0)";
+    // idLimboNombre.style.content = "Entrar";
 
   };
 
   idP5.onmouseleave = function () {
     idLimboNombre.style.textShadow = null;
+    // idLimboNombre.style.content = "A n i m a n o i r";
+
   };
 
 }

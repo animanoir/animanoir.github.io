@@ -1,7 +1,7 @@
 window.onload = function () {
 
     // Pequeño script que cambia el texto cuando metes el mouse.
-    let arrayPalabras = [
+    const arrayPalabras = [
         '¿Cuántos secretos sabes?',
         'Somos seres espirituales con experiencia humana.',
         'Sexo, muerte y matemáticas.',
@@ -58,7 +58,7 @@ window.onload = function () {
         'Lo siniestro es aquello que, debiendo permanecer oculto, se ha revelado.',
         'WHO CONTROLS THE BASS, CONTROLS THE MIND.'
     ];
-    let menuLatInicio = document.querySelector('#menu-lat-inicio');
+    const menuLatInicio = document.querySelector('#menu-lat-inicio');
 
     menuLatInicio.onmouseenter = function () {
         let i = Math.floor((Math.random() * arrayPalabras.length));
