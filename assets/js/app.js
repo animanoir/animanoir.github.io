@@ -2,8 +2,6 @@ window.onload = function () {
 
     // Pequeño script que cambia el texto cuando metes el mouse.
     const arrayPalabras = [
-        '¿Cuántos secretos sabes?',
-        'Somos seres espirituales con experiencia humana.',
         'Sexo, muerte y matemáticas.',
         'Per aspera ad astra.',
         'Paciencia y persistencia.',
@@ -22,7 +20,6 @@ window.onload = function () {
         'Post-Nouveau avant-garde emofunk.',
         'paypal.me/omontielanimanoir',
         'Don\'t forget 3.oct.10',
-        'El que comparte siempre se lleva la mejor parte.',
         'Lucky stars in your eyes.',
         'D3530 Y D151MUL4C10N',
         'Bulgarian otaku.',
@@ -55,8 +52,6 @@ window.onload = function () {
         'Everything you do is a balloon.',
         '森を覚えている',
         'Music has the right to children.',
-        'Lo siniestro es aquello que, debiendo permanecer oculto, se ha revelado.',
-        'WHO CONTROLS THE BASS, CONTROLS THE MIND.'
     ];
     const menuLatInicio = document.querySelector('#menu-lat-inicio');
 
