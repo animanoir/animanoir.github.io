@@ -2,6 +2,7 @@ window.onload = function () {
 
     // Pequeño script que cambia el texto cuando metes el mouse.
     const arrayPalabras = [
+        'animanoir.xyz',
         'Sexo, muerte y matemáticas.',
         'Per aspera ad astra.',
         'Paciencia y persistencia.',
@@ -12,7 +13,6 @@ window.onload = function () {
         'De una sola fuente todas las cosas dependen.',
         'Cancún: Neo-Tristeza',
         'La sublimación del Powerchord.',
-        'Muan Januel',
         'Diplopia mental.',
         'El vaivén de tu sangre en momentos de sosiego.',
         'Unus mundus',
@@ -46,9 +46,7 @@ window.onload = function () {
         'Yesterday and today.',
         'Llévame un día a tu lugar secreto.',
         'Hipersensible a la realidad.',
-        'A.R Kane - Lollita',
         'A stop at the chord cascades.',
-        'Éso es todo, puerco. Éso es todo.',
         'Everything you do is a balloon.',
         '森を覚えている',
         'Music has the right to children.',
