@@ -4,7 +4,7 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;pb-4&quot;&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/evolanim/evolanim-img1.jpg&quot; alt=&quot;evolución animanoir historia&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/evolanim/evolanim-img1.jpg&quot; alt=&quot;evolución animanoir historia&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;pt-1 fuente-opensans color-lectura posts&quot;&gt;
@@ -129,12 +129,12 @@ setInterval(function(){
     }
 }, 1000);
 
-&lt;/script&gt;</content><author><name></name></author><summary type="html">Evolución Animanoir (2015/18)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com/assets/gifs/logos-animanoir.gif" /></entry><entry><title type="html">Festival Sonorum</title><link href="https://animanoir.com/festival-sonorum" rel="alternate" type="text/html" title="Festival Sonorum" /><published>2018-12-27T11:00:00-06:00</published><updated>2018-12-27T11:00:00-06:00</updated><id>https://animanoir.com/festsonorum</id><content type="html" xml:base="https://animanoir.com/festival-sonorum">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Evolución Animanoir (2015/18)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com./assets/gifs/logos-animanoir.gif" /></entry><entry><title type="html">Festival Sonorum</title><link href="https://animanoir.com/festival-sonorum" rel="alternate" type="text/html" title="Festival Sonorum" /><published>2018-12-27T11:00:00-06:00</published><updated>2018-12-27T11:00:00-06:00</updated><id>https://animanoir.com/festsonorum</id><content type="html" xml:base="https://animanoir.com/festival-sonorum">&lt;div class=&quot;pb-3&quot;&gt;
 &lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Web &lt;i&gt;F. Sonorum (Qro.)&lt;/i&gt;&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(2016/17)&lt;/small&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;pb-4&quot;&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/sonorum/festivalsonorum-img1.gif&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/sonorum/festivalsonorum-img1.gif&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -149,15 +149,15 @@ setInterval(function(){
 
   &lt;p&gt;Estos eventos buscan atraer a la gente al lado bueno de la fusión entre arte y tecnología.&lt;/p&gt;
 
-  &lt;p&gt;&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;/assets/posts/sonorum/sonorum1.jpg&quot; alt=&quot;festival sonorum querétaro Animanoir p5js&quot; /&gt;
-&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;/assets/posts/sonorum/sonorum2.jpg&quot; alt=&quot;festival sonorum querétaro Animanoir p5js&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;./assets/posts/sonorum/sonorum1.jpg&quot; alt=&quot;festival sonorum querétaro Animanoir p5js&quot; /&gt;
+&lt;img class=&quot;img-fluid pb-4&quot; src=&quot;./assets/posts/sonorum/sonorum2.jpg&quot; alt=&quot;festival sonorum querétaro Animanoir p5js&quot; /&gt;&lt;/p&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Web F. Sonorum (Qro.) (2016/17)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com/assets/gifs/sonorum.gif" /></entry><entry><title type="html">Gifs</title><link href="https://animanoir.com/gifs-ello" rel="alternate" type="text/html" title="Gifs" /><published>2018-12-15T19:52:01-06:00</published><updated>2018-12-15T19:52:01-06:00</updated><id>https://animanoir.com/gifsello</id><content type="html" xml:base="https://animanoir.com/gifs-ello">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web F. Sonorum (Qro.) (2016/17)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com./assets/gifs/sonorum.gif" /></entry><entry><title type="html">Gifs</title><link href="https://animanoir.com/gifs-ello" rel="alternate" type="text/html" title="Gifs" /><published>2018-12-15T19:52:01-06:00</published><updated>2018-12-15T19:52:01-06:00</updated><id>https://animanoir.com/gifsello</id><content type="html" xml:base="https://animanoir.com/gifs-ello">&lt;div class=&quot;pb-3&quot;&gt;
 &lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Gifs&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(siempre)&lt;/small&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;pb-4&quot;&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello.gif&quot; alt=&quot;gifs gif animanoir animación oscuridad cerillo&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/ello/ello.gif&quot; alt=&quot;gifs gif animanoir animación oscuridad cerillo&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -168,19 +168,19 @@ setInterval(function(){
 
   &lt;p&gt;Mientras tanto, gifs:&lt;/p&gt;
 
-  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello-img2.gif&quot; alt=&quot;gif animanoir animación&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/ello/ello-img2.gif&quot; alt=&quot;gif animanoir animación&quot; /&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/ello/ello-img3.gif&quot; alt=&quot;gif animanoir animación&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/ello/ello-img3.gif&quot; alt=&quot;gif animanoir animación&quot; /&gt;&lt;/p&gt;
 
   &lt;p&gt;Para más, &lt;a href=&quot;https://ello.co/animanoir&quot; target=&quot;_blank&quot;&gt;ello.co&lt;/a&gt;, y el &lt;a href=&quot;https://www.flickr.com/photos/animanoir/&quot; target=&quot;_blank&quot;&gt;Flickr&lt;/a&gt; de una vez.&lt;/p&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Gifs (siempre)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com/assets/gifs/ello-img1.gif" /></entry><entry><title type="html">Arïsta.mx</title><link href="https://animanoir.com/arista-web" rel="alternate" type="text/html" title="Arïsta.mx" /><published>2018-11-26T10:52:01-06:00</published><updated>2018-11-26T10:52:01-06:00</updated><id>https://animanoir.com/arista</id><content type="html" xml:base="https://animanoir.com/arista-web">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Gifs (siempre)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com./assets/gifs/ello-img1.gif" /></entry><entry><title type="html">Arïsta.mx</title><link href="https://animanoir.com/arista-web" rel="alternate" type="text/html" title="Arïsta.mx" /><published>2018-11-26T10:52:01-06:00</published><updated>2018-11-26T10:52:01-06:00</updated><id>https://animanoir.com/arista</id><content type="html" xml:base="https://animanoir.com/arista-web">&lt;div class=&quot;pb-3&quot;&gt;
 &lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Web: &lt;i&gt;Arïsta.mx&lt;/i&gt; &lt;/div&gt;
 &lt;small class=&quot;text-dark&quot;&gt;(2017)&lt;/small&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;pb-4&quot;&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/arista/arista.jpg&quot; alt=&quot;arista bolsas artesanías animanoir&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/arista/arista.jpg&quot; alt=&quot;arista bolsas artesanías animanoir&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -190,12 +190,12 @@ setInterval(function(){
   &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;h3&quot;&gt;A&lt;/span&gt;rista®.mx&lt;/strong&gt; es un estudio en Querétaro, México que se dedica a diseñar bolsas con estilos únicos, basados en la naturaleza misma.&lt;/p&gt;
 
   &lt;p&gt;Lamentablemente, por ahora, está offline. Sin embargo, una imagen del layout se encuentra arriba. También los invito a visitar su página en &lt;a href=&quot;https://www.facebook.com/Ar%C3%AFsta-Accesorios-de-piel-553815175009624/&quot; target=&quot;_blank&quot;&gt;Facebook: Arïsta&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Web: Arïsta.mx (2017)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com/assets/gifs/arista-web.gif" /></entry><entry><title type="html">Homo Techno Sapiens</title><link href="https://animanoir.com/revista-ouroboros" rel="alternate" type="text/html" title="Homo Techno Sapiens" /><published>2017-12-15T19:52:01-06:00</published><updated>2017-12-15T19:52:01-06:00</updated><id>https://animanoir.com/hts</id><content type="html" xml:base="https://animanoir.com/revista-ouroboros">&lt;div class=&quot;pb-3&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web: Arïsta.mx (2017)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com./assets/gifs/arista-web.gif" /></entry><entry><title type="html">Homo Techno Sapiens</title><link href="https://animanoir.com/revista-ouroboros" rel="alternate" type="text/html" title="Homo Techno Sapiens" /><published>2017-12-15T19:52:01-06:00</published><updated>2017-12-15T19:52:01-06:00</updated><id>https://animanoir.com/hts</id><content type="html" xml:base="https://animanoir.com/revista-ouroboros">&lt;div class=&quot;pb-3&quot;&gt;
 &lt;div class=&quot;display-4 fuente-josefin font-weight-bold color-post-titulo&quot;&gt;Revista Ouroboros&lt;/div&gt; &lt;small class=&quot;text-dark&quot;&gt;(2014)&lt;/small&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;pb-4&quot;&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/rouroboros/ro-img1.jpg&quot; alt=&quot;animanoir UAQ ouroboros revista Querétaro Universidad Autónom de Querétaro Óscar A. Montiel&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/rouroboros/ro-img1.jpg&quot; alt=&quot;animanoir UAQ ouroboros revista Querétaro Universidad Autónom de Querétaro Óscar A. Montiel&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -208,10 +208,10 @@ setInterval(function(){
 
   &lt;p&gt;La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.&lt;/p&gt;
 
-  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/posts/rouroboros/ro-img2.jpg&quot; alt=&quot;biblioteca San Miguel de Allende Animanoir mural&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;./assets/posts/rouroboros/ro-img2.jpg&quot; alt=&quot;biblioteca San Miguel de Allende Animanoir mural&quot; /&gt;&lt;/p&gt;
 
   &lt;p&gt;A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy chidas.&lt;/p&gt;
 
   &lt;p&gt;La revista la pueden encontrar en la &lt;a href=&quot;http://libreria.uaq.mx/&quot; target=&quot;_blank&quot;&gt;Librería UAQ&lt;/a&gt; y en la estantería de libros en FBA de la misma universidad.&lt;/p&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Revista Ouroboros (2014)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com/assets/gifs/hts-gif.gif" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Revista Ouroboros (2014)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://animanoir.com./assets/gifs/hts-gif.gif" /></entry></feed>
