@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animanoir | Óscar A. Montiel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      background-image: url("./ita-rave-fondo.gif");
+      font-family: arial;
+    }
+
+    #header{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #last-update {
+      position: absolute;
+    }
+
+    .title {
+      font-size: 5rem;
+      color: black;
+      text-align: center;
+      animation: glow .5s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
+      }
+
+      to {
+        text-shadow: 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="limbo.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="title">Animanoir</h1>
+    <small id="last-update">
+      Last update:
+      <script >
+        document.write(document.lastModified)
+      </script>
+    </small>
+  </header>
+
+  <img src="./ita-rave-fondo.gif" lowsrc="./animanoir-logo.png"  alt="">
+  <h2><a href="./webAntigua/limbo.html">web antigua</a></h2>
+  <h2><a href="./corazones/index.html">corazones</a></h2>
+
+
+  <script type="text/javascript">
+  // let lastUpdate = document.querySelector('.title')
+  // setInterval(() => {
+  //   let random = Math.random() * 10
+  //   lastUpdate.style.fontSize = `${Math.random() * 10}rem`
+  //   console.log('hola'+random)
+  // }, 100);
+  </script>
+</body>
+
+</html>
