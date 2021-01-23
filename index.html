@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Bootstrap 4.1.3 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- p5.js 0.7.2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+  <!-- Sketch de Led -->
+  <script src="./assets/js/led.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://animanoir.com/feed.xml" title="Animanoir" /><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96988751-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96988751-1');
+</script>
+<!-- SEO que pone Jekyll --><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Animanoir | Animación y arte digital. Tutoriales. Fantasmas, espectros y seres etéreos.</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Animanoir" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Animación y arte digital. Tutoriales. Fantasmas, espectros y seres etéreos." />
+<meta property="og:description" content="Animación y arte digital. Tutoriales. Fantasmas, espectros y seres etéreos." />
+<link rel="canonical" href="https://animanoir.com/" />
+<meta property="og:url" content="https://animanoir.com/" />
+<meta property="og:site_name" content="Animanoir" />
+<script type="application/ld+json">
+{"url":"https://animanoir.com/","name":"Animanoir","description":"Animación y arte digital. Tutoriales. Fantasmas, espectros y seres etéreos.","@type":"WebSite","headline":"Animanoir","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<meta property="og:image" content="./assets/new-op-image.jpg" />
+  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./assets/favicon-16x16.png" sizes="16x16" />
+  <link rel="prerender" href="limbo.html">
+
+  <!-- Manifest.json (metas en móviles) -->
+  <link rel="manifest" href=""./assets/manifest.json">
+</head>
+
+<body style="background: black;">
+  <!-- Efecto de estrellas tomado de: https://codemyui.com/parallax-pixel-stars-using-pure-css/ , pero modificado.-->
+  <div id="stars"></div>
+  <div id="stars2"></div>
+
+  <!-- Dentro de este div se centra todo. -->
+  <div class="centrar mt-3">
+    <!-- Sketch de Led -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center ">
+          <!-- Un cargador en svg previo a Led. -->
+          <div class="loadingclass text-center " id="p5_loading">
+              <div class="text-center text-muted">
+                <p>Visita <a href="https://animanoir.xyz">animanoir.xyz</a></p>
+              </div>
+          </div>
+          <a href="limbo.html">
+            <div title="Entrar" data-aos="fade-up" data-aos-duration="3000" id="p5"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BS 4.1.3 JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
