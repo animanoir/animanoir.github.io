@@ -8,6 +8,26 @@ let alpha = 0; //Transparencia de la imagen para un efecto lindo de aparición.
 let galaxias = ["assets/js/n1.jpg", "assets/js/n2.jpg", "assets/js/n3.jpg", "assets/js/n4.jpg"];
 let galaxiaElegida;
 
+let frase = [{
+    arriba: 'Léeme',
+    abajo: '...',
+  },
+  {
+    arriba: 'Te dedico',
+    abajo: 'a un poema.',
+  },
+  {
+    arriba: 'Se',
+    abajo: 'eterno.',
+  },
+  {
+    arriba: 'Y hazme',
+    abajo: 'el click.',
+  }
+]
+
+let fraseIndex = 0
+
 function preload() {
   //Selecciona un index de galaxias al azar
   galaxiaElegida = (int(random(galaxias.length)));
@@ -19,10 +39,14 @@ function setup() {
   //Usa un div con id p5 como canvas.
   let cnv = createCanvas(301, 455);
   cnv.parent("p5");
+  textSize(25)
+  textAlign(CENTER)
 }
 
 function draw() {
-  background(0);
+  background(255);
+  text(frase[fraseIndex].arriba, width / 2, height / 2)
+  text(frase[fraseIndex].abajo, width / 2, (height / 2) + 20)
   cambiarNebula();
   //Máscara transparente
   image(led, 0, 0);
@@ -30,13 +54,19 @@ function draw() {
 
 // Esta función hace el cambio de las nébulas que salen dentro de Led.
 function cambiarNebula() {
-  // x es el eje x donde se mueve la ImageBitmapRenderingContext. 
+
+  // x es el eje x donde se mueve la ImageBitmapRenderingContext.
   x += 0.29;
   // alpha es para el efecto como de aparecer.
   alpha += 3;
   push();
+
   // Cuando es mayor o igual a -100, hace lo que está dentro, que es como reiniciar.
   if (x >= -100) {
+    fraseIndex++
+    if (fraseIndex >= frase.length) {
+      fraseIndex = 0
+    }
     galaxiaElegida = (int(random(galaxias.length)));
     galaxia = loadImage(galaxias[galaxiaElegida]);
     x = -200;
@@ -45,26 +75,6 @@ function cambiarNebula() {
   tint(255, alpha);
   image(galaxia, x, 0);
   pop();
-}
 
-
-
-window.onload = function () {
-
-  // Para no usar jQuery:
-  let idP5 = document.querySelector("#p5");
-  let idLimboNombre = document.querySelector("#limbo-nombre");
-
-  idP5.onmouseover = function () {
-    idLimboNombre.style.textShadow = "20px 0px rgb(180, 0, 0)";
-    // idLimboNombre.style.content = "Entrar";
-
-  };
-
-  idP5.onmouseleave = function () {
-    idLimboNombre.style.textShadow = null;
-    // idLimboNombre.style.content = "A n i m a n o i r";
-
-  };
 
 }
