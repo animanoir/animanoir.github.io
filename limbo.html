@@ -1,168 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animanoir | Experiments</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" />
-  <link rel="shortcut icon" href="./imgs/animanoir-logo-scroll.png">
-  <style>
-    body {
-      background-color: black;
-      color: white;
-      background-repeat: space;
-      background-size: cover;
-      font-family: arial;
-    }
-
-    ::-webkit-scrollbar {
-      color: black;
-      min-width: 41px;
-      height: 100%;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background-image: url("./imgs/eye.gif");
-      /* background-repeat: no-repeat; */
-      height: 100%;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background-image: url("./imgs/animanoir-logo-scroll.png");
-      background-repeat: repeat;
-      cursor: pointer;
-    }
-
-    #header {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .title {
-      font-size: 7rem;
-      margin: 0;
-      color: red;
-      text-align: center;
-      /* animation: glow .5s ease-in-out infinite alternate; */
-    }
-
-    /* @-webkit-keyframes glow {
-      from {
-        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
-      }
-
-      to {
-        text-shadow: 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
-      }
-    } */
-    .barraUp {
-      position: fixed;
-      min-height: 41px;
-      width: 100vw;
-      background-image: url("./imgs/eye.gif");
-      background-repeat: repeat;
-    }
-
-    .barraLeft {
-      background-image: url("./imgs/eye.gif");
-      position: fixed;
-      height: 100vh;
-      min-width: 41px;
-    }
-
-    .barraDown {
-      width: 100vw;
-      background-image: url("./imgs/eye.gif");
-      position: fixed;
-      bottom: 0;
-      height: 41px;
-    }
-
-    .wrapper {
-      padding: 41px;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      background-color: rgba(0, 0, 0, .5);
-      padding: 10px;
-    }
-
-    .grid-item {
-      background-color: rgba(255, 255, 255, 0.7);
-      border: 1px solid rgba(0, 0, 0, 0.8);
-      padding: 20px;
-      font-size: 30px;
-      text-align: center;
-    }
-
-    .header-container {
-      background-color: rgba(0, 0, 0, 0.5);
-      margin: 1rem;
-      font-size: 2rem;
-      padding: 1rem;
-    }
-  </style>
+  <title>Óscar A. Montiel | Experiments</title>
 </head>
+<style>
+body {
+  background-color: black;
+}
 
+li{
+  list-style: none;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+</style>
 <body>
-  <div class="barraUp"></div>
-  <div class="barraLeft"></div>
-  <div class="barraDown"></div>
-  <div class="wrapper">
-    <div class="header-container">
-      <header id="header">
-        <h1 class="title">Animanoir</h1>
-      </header>
-      <p>
-        <i id="frase"></i>
-      </p>
-      <p>
-        Hi, my name is <b>Óscar A. Montiel</b>, but I like to name what I do as <b>Animanoir</b>, meaning something.
-        Here I´ll upload web experiments I find funny and creative. You can know more about me at <a
-          href="http://animanoir.xyz">animanoir.xyz</a>
-      </p>
-    </div>
-    <div class="grid-container">
-      <div class="grid-item">
-        <h2><a href="./webAntigua/limbo.html">animanoir.com</a></h2>
-      </div>
-      <div class="grid-item">
-        <h2><a href="http://animanoir.xyz">animanoir.xyz</a></h2>
-      </div>
-      <div class="grid-item">
-        <h2><a href="./corazones/index.html">corazones</a></h2>
-      </div>
-    </div>
 
-    <script>
-      const frases = [
-        'Don’t take yourself too seriously. The world doesn’t revolve around you. Don’t be attached to the illusion of self. Embrace well-being and happiness.',
-        'You are fluid, not fixed. Don’t stick to an illusionary self — one aspect of you is not you. Avoid being defensive when someone hurts one side of who you are.',
-        'People are not your enemies. When you are at peace with who you are, you don’t feel the need to fight others.',
-        'Increase self-consciousness. Egolessness is insight gained from meditation — we dive deep into the emptiness or illusoriness of self and habitual patterns.',
-        'Love yourself, not your image. Accept your wholeness — both the good and bad. True self-love is appreciating that others feel self-love too.',
-        'Stop trying to be perfect. I’m not suggesting you lower your bar — realize you are not a finished person, but a work in progress.',
-        'Being vulnerable is being strong. You don’t need to sustain an idealized version of yourself to be accepted by others. Masks are fragile, but nothing can beat your authentic self.'
-      ]
+  <ul>
 
-      const frase = document.querySelector('#frase')
-      frase.textContent = frases[~~(Math.random() * frases.length)]
+    <li>
+      <a href="webAntigua/limbo.html">
+        .com
+      </a>
+    </li>
+    <li>
+      <a href="v0/v0.html">
+        v0
+      </a>
 
-      const gifs = ['./imgs/gifs/aphex.gif', './imgs/gifs/dog.gif', './imgs/gifs/hand.gif',
-        './imgs/gifs/ita-rave-fondo.gif', './imgs/gifs/me.gif', './imgs/gifs/me2.gif', './imgs/gifs/rojo.gif'
-      ]
 
-      document.body.style.backgroundImage = `url(${gifs[~~(Math.random() * gifs.length)]}`
-    </script>
-  </div>
+    </li>
+    <li>
+
+      <a href="webAntigua/limbo.html">
+        atrás
+      </a>
+
+    </li>
+  </ul>
 
 </body>
-
 </html>
