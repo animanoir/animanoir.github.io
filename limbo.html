@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
+  <link rel="stylesheet" href="./general.css">
   <title>Óscar A. Montiel | Experiments</title>
 </head>
 <style>
-body {
-  background-color: black;
-}
+  body {
+    background-color: black;
+  }
 
-li{
-  list-style: none;
-  color: white;
-  font-size: 5rem;
-  text-align: center;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-a:hover{
-  color: red;
-}
+  li {
+    list-style: none;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  @media (max-width: 1000px) {
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      font-size: 4rem;
+    }
+  }
 </style>
+
 <body>
+  <div id="fixed-frame" class="fade-in">
+    <h1 id="title">
+      <a href="https://animanoir.xyz">
+        Óscar A. Montiel
+      </a>
 
+    </h1>
+    <h2 id="nowPlaying">Experiments
+    </h2>
+  </div>
   <ul>
-
     <li>
       <a href="webAntigua/limbo.html">
-        .com
+        web antigua
       </a>
     </li>
     <li>
       <a href="v0/v0.html">
         v0
       </a>
-
-
     </li>
     <li>
-
-      <a href="webAntigua/limbo.html">
-        atrás
+      <a href="https://metaxis.digital">
+        metaxis.digital
       </a>
-
     </li>
   </ul>
-
 </body>
+
 </html>

@@ -5,7 +5,7 @@ let x = -200; //Eje x de la imagen para que se mueva.
 let alpha = 0; //Transparencia de la imagen para un efecto lindo de aparición.
 
 //Array de imágenes.
-let galaxias = ["assets/js/n1.jpg", "assets/js/n2.jpg", "assets/js/n3.jpg", "assets/js/n4.jpg"];
+let galaxias = ["./led/n1.jpg", "./led/n2.jpg", "./led/n3.jpg", "./led/n4.jpg"];
 let galaxiaElegida;
 
 let frase = [{
@@ -32,7 +32,7 @@ function preload() {
   //Selecciona un index de galaxias al azar
   galaxiaElegida = (int(random(galaxias.length)));
   galaxia = loadImage(galaxias[galaxiaElegida]);
-  led = loadImage("assets/js/led-transparente.png");
+  led = loadImage("./led/led-transparente.png");
 }
 
 function setup() {
@@ -75,6 +75,4 @@ function cambiarNebula() {
   tint(255, alpha);
   image(galaxia, x, 0);
   pop();
-
-
 }
