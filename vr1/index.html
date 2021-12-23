@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.js"></script>
+  <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
+  <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js">
+  </script>
+  <script src="./hackedOcean.js"></script>
+  <title>Dentro de tu corazón</title>
+</head>
+
+<body>
+  <a-scene fog="type: linear; color: #000; near: 0; far: 600">
+    <a-assets>
+      <img id="sky" src="assets/sky-alt.jpg">
+    </a-assets>
+    <a-entity light="type: ambient; intensity: 0.0"></a-entity>
+    <a-entity light="type: point; intensity: 1.0; distance: 50;" position= "0 2 0">
+      <a-animation
+        attribute="position"
+        from="0 5 0"
+        to="0 2 0"
+        repeat="indefinite"
+      >
+      </a-animation>
+  </a-entity>
+    <a-sky src="#sky"></a-sky>
+    <a-sphere id="sphere" material="sphericalEnvMap: #sky; roughness: 0" position="0 5 0"
+      animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1500; to: 0 2 0; loop: true">
+    </a-sphere>
+
+    <a-entity id="ocean" ocean="density: 20; width: 50; depth: 50; speed: 3"
+      material="color: #fff; opacity: 0.75; metalness: 0; roughness: 1" rotation="-90 0 0"></a-entity>
+  </a-scene>
+</body>
+
+</html>
